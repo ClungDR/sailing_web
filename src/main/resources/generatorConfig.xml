@@ -28,7 +28,7 @@
     <javaModelGenerator targetPackage="com.sailing.entity" targetProject="src/main/java" />
     <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources" />
     <javaClientGenerator targetPackage="com.sailing.dao" targetProject="src/main/java" type="XMLMAPPER" />
-    <table schema="voyage" tableName="answer" domainObjectName="Answer" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+    <table schema="voyage" tableName="course_organization" domainObjectName="CourseOrganization" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
     enableSelectByExample="false" selectByExampleQueryId="false">
       
     </table>

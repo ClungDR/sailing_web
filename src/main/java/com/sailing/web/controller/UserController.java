@@ -4,17 +4,15 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
+import com.sailing.constant.UserConstants;
+import com.sailing.entity.User;
 import org.apache.shiro.crypto.hash.Md5Hash;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-
-import com.sailing.constant.MyConstants;
 
 /**
  * 此类实现的是有关于用户操作的一些实现
@@ -24,6 +22,12 @@ import com.sailing.constant.MyConstants;
 @Controller
 @RequestMapping("/user")
 public class UserController extends BaseController{
+    @RequestMapping("/getUserInfo")
+    @ResponseBody
+    public User getUserinfo(){
+        return (User) session.getAttribute(UserConstants.CURRENT_USER);
+    }
+
     @RequestMapping("/editUserInfo")
     public String userEditInfo(){
         return "user/editUserInfo";
@@ -42,7 +46,7 @@ public class UserController extends BaseController{
             String extension = "";
             if (position != -1)
                 extension = oldname.substring(position);
-            String filename = new Md5Hash(String.valueOf(System.currentTimeMillis()), session.getAttribute(MyConstants.CURRENT_USER_ID)).toString();
+            String filename = new Md5Hash(String.valueOf(System.currentTimeMillis()), session.getAttribute(UserConstants.CURRENT_USER_ID)).toString();
             file.transferTo(new File(parent, filename + extension));
 
             return "/resources/data/headPic/"+filename+extension;

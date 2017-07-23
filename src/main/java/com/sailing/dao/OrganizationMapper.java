@@ -4,6 +4,8 @@ import org.springframework.stereotype.Repository;
 
 import com.sailing.entity.Organization;
 
+import java.util.List;
+
 @Repository
 public interface OrganizationMapper {
     int deleteById(Integer id);
@@ -17,4 +19,6 @@ public interface OrganizationMapper {
     int updateByIdSelective(Organization record);
 
     int updateById(Organization record);
+
+    List<Organization> selectAll();
 }

@@ -82,6 +82,7 @@
     <!--登陆过滤器-->
     <bean id="loginFilter" class="com.sailing.web.filter.LoginFilter"/>
 
+    <bean id="videoFilter" class="com.sailing.web.filter.VideoFilter"/>
     <!-- Shiro的Web过滤器 -->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager"/>
@@ -93,6 +94,7 @@
             <util:map>
                 <!--<entry key="authc" value-ref="formAuthenticationFilter"/>-->
                 <entry key="loginFilter" value-ref="loginFilter"/>
+                <entry key="videoFilter" value-ref="videoFilter"/>
             </util:map>
         </property>
         <property name="filterChainDefinitions">
@@ -103,6 +105,7 @@
                 /logout = logout
                 /resources/**=anon
                 /user/**=loginFilter
+                /video=videoFilter
             </value>
         </property>
     </bean>

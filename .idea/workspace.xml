@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseFileService.java" line="24" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="008f09d1-5cdd-40b0-bd54-7f647823cffb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,54 +29,101 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="video.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="333" column="48" lean-forward="false" selection-start-line="333" selection-start-column="48" selection-end-line="333" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/question.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+              <folding>
+                <marker date="1500771613920" expanded="true" signature="8101:8115" ph="..." />
+                <marker date="1500771613920" expanded="true" signature="8406:8431" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-test.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video-test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="227" column="21" lean-forward="true" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#1;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#2;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selectAllQuestionWrapByVideoId</find>
-      <find>heheda</find>
-      <find>selectBy</find>
-      <find>video_id</find>
-      <find>insert</find>
-      <find>add-ques</find>
-      <find>add-reply</find>
-      <find>add</find>
-      <find>reply-box</find>
-      <find>answer</find>
-      <find>dadasda</find>
-      <find>consol</find>
-      <find>alert</find>
-      <find>flv</find>
-      <find>play()</find>
-      <find>s</find>
-      <find>sy</find>
-      <find>syst</find>
-      <find>syste</find>
-      <find>system</find>
-      <find>system.o</find>
-      <find>system.ou</find>
-      <find>system.out</find>
-      <find>S</find>
-      <find>Syste</find>
-      <find>System</find>
-      <find>DiscussWrap</find>
-      <find>${}</find>
-      <find>resources</find>
-      <find>mysql</find>
+      <find />
+      <find>window</find>
+      <find>window.lo</find>
+      <find>window.loca</find>
+      <find>window.locati</find>
+      <find>window.locatio</find>
+      <find>window.location</find>
+      <find>PPT——</find>
+      <find>PPT—</find>
+      <find>PPT</find>
+      <find>PPT_</find>
+      <find>json-li</find>
+      <find>tooltip</find>
+      <find>dasdasda</find>
+      <find>active</find>
+      <find>ge</find>
+      <find>get</find>
+      <find>geta</find>
+      <find>getal</find>
+      <find>getall</find>
+      <find>role-list</find>
+      <find>PrimaryKey</find>
+      <find>int</find>
+      <find>headPic</find>
+      <find>/add-</find>
+      <find>/question</find>
+      <find>/video/</find>
+      <find>/video</find>
+      <find>add-</find>
+      <find>/add</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>question</replace>
+      <replace>${resPath}</replace>
+      <replace>writer-name</replace>
+      <replace>courseFileMapper</replace>
+      <replace>UserConstants</replace>
+      <replace>sub-list</replace>
       <replace>Id</replace>
+      <replace>void</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\Java\sailing_web\src\test\com\sailing\web</dir>
@@ -92,57 +142,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/AnswerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/QuestionMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/AnswerMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/QuestionMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Answer.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/MyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionWrapUser.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/service/QuestionServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/DiscussMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/DiscussMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/DiscussMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/sailing/service/DiscussServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/constant/MyConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/AnswerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/AnswerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AnswerMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Audio.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/audio/audio.jsp" />
+        <option value="$PROJECT_DIR$/src/test/com/sailing/web/MyTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/com/sailing/service/course/CourseServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseFileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/CourseFile.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/sailing/web/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/util/ListUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/core/ListConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseFileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CourseFileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/content/admin-course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/file-upload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/admin-course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/OrganizationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OrganizationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/OrganizationMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/OrganizationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/OrganizationService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/AnswerUser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/common.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/question.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/QuestionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminCourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminFileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/content/course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CourseOrganizationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/dao/CourseOrganizationMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/com/sailing/dao/CourseOrganizationMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/CourseOrganization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseOrganizationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseOrganizationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/content/upload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/android/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/android/AnLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussWrapUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussUserWrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/DiscussServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/service/DiscussService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/structure.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main-frame.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9105dc87-b3d5-424c-87ad-2d2c989a25b6/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/content/course-frame.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/content/note-frame.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/note.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/entity/Answer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/question.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/disscuss-note.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/DiscussController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sailing/web/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video-test.jsp" />
       </list>
     </option>
   </component>
@@ -214,6 +264,24 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="mybatis-generator" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sailing_web Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="compiler" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -552,6 +620,461 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sailing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -616,91 +1139,52 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sailing_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sailing_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sailing_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sailing_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="userco&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/UserController.java&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;vicon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;videocon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;video&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/video/video.jsp&#10;usecon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/UserController.java&#10;usercon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/UserController.java&#10;videcon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;question&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/video/question.jsp&#10;vide&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;quesimpl&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/QuestionServiceImpl.java&#10;userjava&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/User.java&#10;Login&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/LoginController.java&#10;login&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/LoginController.java&#10;ansxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/AnswerMapper.xml&#10;animpl&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/AnswerServiceImpl.java&#10;cojsp&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/common/common.jsp&#10;anim&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/AnswerServiceImpl.java&#10;anser&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/AnswerService.java&#10;answe&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/dao/AnswerMapper.java&#10;common&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/common/common.jsp&#10;quimp&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/QuestionServiceImpl.java&#10;quesser&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/QuestionService.java&#10;quesma&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/QuestionMapper.xml&#10;questionxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/QuestionMapper.xml&#10;usertes&#9;FILE&#9;file://E:/Java/sailing_web/src/test/com/sailing/dao/UserMapperTest.java&#10;questest&#9;FILE&#9;file://E:/Java/sailing_web/src/test/com/sailing/service/QuestionServiceTest.java&#10;userim&#9;PSI&#9;JAVA://com.sailing.service.UserServiceImpl&#10;userser&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/UserService.java&#10;userse&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/UserServiceImpl.java&#10;disim&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/DiscussServiceImpl.java&#10;dis&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/DiscussService.java&#10;diss&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/DiscussService.java&#10;test&#9;FILE&#9;file://E:/Java/sailing_web/src/test/com/sailing/service/QuestionServiceTest.java&#10;disma&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/dao/DiscussMapper.java&#10;dism&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/DiscussMapper.xml&#10;disxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/DiscussMapper.xml&#10;discuss&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/Discuss.java&#10;quus&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/model/QuestionWrapUser.java&#10;ques&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/QuestionServiceImpl.java&#10;user&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/User.java&#10;ans&#9;PSI&#9;JAVA://com.sailing.entity.Answer&#10;answer&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/Answer.java&#10;videoc&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;queswr&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/entity/model/QuestionWrap.java&#10;ques.xm&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/QuestionMapper.xml&#10;answerma&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/AnswerMapper.xml&#10;local&#9;ACTION&#9;LocalHistory&#10;gener&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/generatorConfig.xml&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
-    <property name="last_opened_file_path" value="D:/apache-maven-3.5.0/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" />
+    <property name="SearchEverywhereHistoryKey" value="video&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/VideoController.java&#10;ques&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/QuestionController.java&#10;disjs&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/common/disscuss-note.jsp&#10;quesjsp&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/video/question.jsp&#10;usercont&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/UserController.java&#10;logincon&#9;PSI&#9;JAVA://com.sailing.web.android.LoginController&#10;admin&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/admin/AdminController.java&#10;upload&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/admin/content/upload.jsp&#10;test&#9;FILE&#9;file://E:/Java/sailing_web/src/test/com/sailing/dao/UserAudioMapperTest.java&#10;couor&#9;PSI&#9;JAVA://com.sailing.dao.CourseOrganizationMapper&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;fileuplo&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/admin/file-upload.jsp&#10;spring&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/spring-mvc.xml&#10;organ&#9;PSI&#9;JAVA://com.sailing.entity.Organization&#10;organtest&#9;FILE&#9;file://E:/Java/sailing_web/src/test/com/sailing/dao/OrganizationMapperTest.java&#10;organser&#9;PSI&#9;JAVA://com.sailing.service.OrganizationService&#10;organxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/OrganizationMapper.xml&#10;organi&#9;PSI&#9;JAVA://com.sailing.dao.OrganizationMapper&#10;active&#9;PSI&#9;JAVA://org.omg.PortableInterceptor.ACTIVE&#10;sprin-mvc&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/spring-mvc.xml&#10;spring-con&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/spring-config.xml&#10;dmin&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/admin/AdminFileController.java&#10;uplo&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/admin/content/upload.jsp&#10;couxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/CourseMapper.xml&#10;up&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/admin/content/upload.jsp&#10;audiocon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/AudioController.java&#10;audioser&#9;PSI&#9;JAVA://com.sailing.service.file.AudioServiceImpl&#10;audio&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/AudioController.java&#10;audiomap&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/UserAudioMapper.xml&#10;audioxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/AudioMapper.xml&#10;userma&#9;PSI&#9;JAVA://com.sailing.dao.UserAudioMapper&#10;gener&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/generatorConfig.xml&#10;userser&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/UserService.java&#10;courreser&#9;PSI&#9;JAVA://com.sailing.service.course.CourseResourceService&#10;courresoxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/CourseResourceMapper.xml&#10;courxml&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/CourseFileMapper.xml&#10;videimpl&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/service/file/VideoServiceImpl.java&#10;vidfil&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/filter/VideoFilter.java&#10;adminfil&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/admin/AdminFileController.java&#10;login&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/filter/LoginFilter.java&#10;sprin-s&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/spring-shiro-web.xml&#10;loginfil&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/filter/LoginFilter.java&#10;loginfile&#9;null&#9;null&#10;filejsp&#9;FILE&#9;file://E:/Java/sailing_web/src/main/webapp/WEB-INF/pages/admin/file-upload.jsp&#10;admincon&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/web/controller/admin/AdminFileController.java&#10;coufile&#9;PSI&#9;JAVA://com.sailing.entity.CourseFile&#10;coufil&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/dao/CourseFileMapper.java&#10;courmap&#9;FILE&#9;file://E:/Java/sailing_web/src/main/java/com/sailing/dao/CourseMapper.java&#10;cour&#9;FILE&#9;file://E:/Java/sailing_web/src/main/resources/mapper/CourseResourceMapper.xml&#10;coursere&#9;PSI&#9;JAVA://com.sailing.entity.CourseResource" />
+    <property name="last_opened_file_path" value="D:/Git/es" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.sailing.service" />
       <recent name="com.sailing.dao" />
+      <recent name="com.sailing.service.course" />
+      <recent name="com.sailing.service.file" />
+      <recent name="com.sailing.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\admin" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\common" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\admin\content" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\user\content" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sailing.web.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\admin" />
-      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\user" />
-      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\user\content" />
-      <recent name="E:\Java\sailing_web\src\main\webapp\resources\images\headPic" />
-      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sailing.web.android" />
+      <recent name="com.sailing.web.controller.admin" />
+      <recent name="com.sailing.constant" />
+      <recent name="com.sailing.service.course" />
       <recent name="com.sailing.entity.model" />
-      <recent name="com.sailing.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\user\content" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\video" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\admin" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\resources" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\admin\content" />
+      <recent name="E:\Java\sailing_web\src\main\webapp\WEB-INF\pages\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -716,7 +1200,79 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat8.5">
-    <configuration default="false" name="AnswerMapperTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sailing.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.sailing.web.MyTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sailing_web" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseServiceImplTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sailing.service.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sailing_web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sailing.service.course" />
+      <option name="MAIN_CLASS_NAME" value="com.sailing.service.course.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyTest.jsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sailing.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sailing_web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sailing.web" />
+      <option name="MAIN_CLASS_NAME" value="com.sailing.web.MyTest" />
+      <option name="METHOD_NAME" value="jsonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrganizationMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.sailing.dao.*" />
@@ -727,8 +1283,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sailing.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.sailing.dao.AnswerMapperTest" />
-      <option name="METHOD_NAME" value="deleteById" />
+      <option name="MAIN_CLASS_NAME" value="com.sailing.dao.OrganizationMapperTest" />
+      <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -742,59 +1298,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="QuestionServiceTest.selectAllQuestionWrapByVideoId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sailing.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sailing_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sailing.service" />
-      <option name="MAIN_CLASS_NAME" value="com.sailing.service.QuestionServiceTest" />
-      <option name="METHOD_NAME" value="selectAllQuestionWrapByVideoId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuestionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sailing.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sailing_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sailing.service" />
-      <option name="MAIN_CLASS_NAME" value="com.sailing.service.QuestionServiceTest" />
-      <option name="METHOD_NAME" value="selectAllQuestionWrapByVideoId" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiscussMapperTest.selectAllByVideoId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CourseOrganizationMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.sailing.dao.*" />
@@ -805,34 +1309,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sailing.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.sailing.dao.DiscussMapperTest" />
-      <option name="METHOD_NAME" value="selectAllByVideoId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiscussServiceImplTest.selectDiscussUserByVideoId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sailing.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sailing_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sailing.service" />
-      <option name="MAIN_CLASS_NAME" value="com.sailing.service.DiscussServiceImplTest" />
-      <option name="METHOD_NAME" value="selectDiscussUserByVideoId" />
+      <option name="MAIN_CLASS_NAME" value="com.sailing.dao.CourseOrganizationMapperTest" />
+      <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1304,7 +1782,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sailing_web" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sailing_web_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1313,7 +1791,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="31216" />
+        <option name="DEBUG_PORT" value="1893" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1366,639 +1844,21 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="jetty9.4.6" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.4.6.v20170531" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/voyage/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="sailing_web:war exploded">
-          <settings DEPLOYMENT_METHOD="contexts" />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <data>
-          <option name="configFiles">
-            <list>
-              <JettyConfigFile>
-                <option name="path" value="modules\alpn.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\annotations.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\cdi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\client.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\console-capture.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\continuation.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debug.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debuglog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\deploy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ext.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\fcgi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\flight-recorder.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud-datastore.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gzip.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\hawtio.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\home-base-warning.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\https.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ipaccess.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaas.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jamon.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaspi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jcl-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jminix.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jmx-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="active" value="true" />
-                <option name="path" value="modules\jmx.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jndi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jolokia.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jvm.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-access.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jetty.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\lowresources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\plus.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol-ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\quickstart.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\requestlog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\resources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-compactpath.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-customizer.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\security.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\server.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlet.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlets.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-hash.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-null.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-cache.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-file.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-jdbc.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-mongo.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\sessions.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\setuid.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-simple-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\spring.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\stats.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\threadlimit.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-secure.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\webapp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\websocket.mod" />
-              </JettyConfigFile>
-            </list>
-          </option>
-          <option name="myConfigFiles">
-            <list>
-              <JettyConfigFile>
-                <option name="path" value="modules\alpn.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\annotations.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\cdi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\client.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\console-capture.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\continuation.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debug.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debuglog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\deploy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ext.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\fcgi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\flight-recorder.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud-datastore.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gzip.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\hawtio.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\home-base-warning.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\https.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ipaccess.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaas.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jamon.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaspi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jcl-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jminix.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jmx-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="active" value="true" />
-                <option name="path" value="modules\jmx.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jndi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jolokia.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jvm.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-access.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jetty.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\lowresources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\plus.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol-ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\quickstart.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\requestlog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\resources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-compactpath.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-customizer.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\security.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\server.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlet.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlets.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-hash.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-null.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-cache.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-file.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-jdbc.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-mongo.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\sessions.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\setuid.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-simple-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\spring.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\stats.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\threadlimit.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-secure.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\webapp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\websocket.mod" />
-              </JettyConfigFile>
-            </list>
-          </option>
-        </data>
-      </server-settings>
-      <predefined_log_file id="Jetty" enabled="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="sailing_web:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list size="7">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8.5" />
-      <item index="1" class="java.lang.String" itemvalue="Jetty Server.jetty9.4.6" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AnswerMapperTest.deleteById" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QuestionServiceTest.selectAllQuestionWrapByVideoId" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QuestionServiceTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DiscussMapperTest.selectAllByVideoId" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.DiscussServiceImplTest.selectDiscussUserByVideoId" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectAll" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyTest.jsonTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrganizationMapperTest.selectAll" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CourseOrganizationMapperTest.selectAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiscussServiceImplTest.selectDiscussUserByVideoId" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QuestionServiceTest.selectAllQuestionWrapByVideoId" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiscussMapperTest.selectAllByVideoId" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QuestionServiceTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AnswerMapperTest.deleteById" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CourseOrganizationMapperTest.selectAll" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationMapperTest.selectAll" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyTest.jsonTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectAll" />
       </list>
     </recent_temporary>
   </component>
@@ -2039,34 +1899,45 @@
       <workItem from="1500181478600" duration="17029000" />
       <workItem from="1500201492954" duration="8800000" />
       <workItem from="1500295426696" duration="3822000" />
-      <workItem from="1500302083558" duration="3596000" />
+      <workItem from="1500302083558" duration="4084000" />
+      <workItem from="1500344378207" duration="2203000" />
+      <workItem from="1500354370930" duration="910000" />
+      <workItem from="1500355824073" duration="3637000" />
+      <workItem from="1500376062062" duration="7210000" />
+      <workItem from="1500422575870" duration="5452000" />
+      <workItem from="1500442869957" duration="1582000" />
+      <workItem from="1500457835376" duration="421000" />
+      <workItem from="1500466298085" duration="5773000" />
+      <workItem from="1500509261621" duration="13221000" />
+      <workItem from="1500526925269" duration="10893000" />
+      <workItem from="1500544152775" duration="724000" />
+      <workItem from="1500548932319" duration="2393000" />
+      <workItem from="1500594810864" duration="9871000" />
+      <workItem from="1500613253837" duration="14566000" />
+      <workItem from="1500635094426" duration="6921000" />
+      <workItem from="1500681227274" duration="4110000" />
+      <workItem from="1500699365415" duration="6155000" />
+      <workItem from="1500707457323" duration="6891000" />
+      <workItem from="1500722084858" duration="6137000" />
+      <workItem from="1500767914995" duration="8647000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiscussMapperTest_selectAllByVideoId - 2017.07.15 at 21h 24m 18s.xml">
-      <configuration name="DiscussMapperTest.selectAllByVideoId" configurationId="JUnit" />
+    <history-entry file="CourseOrganizationMapperTest_selectAll - 2017.07.22 at 21h 27m 03s.xml">
+      <configuration name="CourseOrganizationMapperTest.selectAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiscussMapperTest_selectAllByVideoId - 2017.07.15 at 21h 25m 07s.xml">
-      <configuration name="DiscussMapperTest.selectAllByVideoId" configurationId="JUnit" />
+    <history-entry file="CourseOrganizationMapperTest_selectAll - 2017.07.22 at 21h 27m 32s.xml">
+      <configuration name="CourseOrganizationMapperTest.selectAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiscussMapperTest_selectAllByVideoId - 2017.07.15 at 21h 25m 28s.xml">
-      <configuration name="DiscussMapperTest.selectAllByVideoId" configurationId="JUnit" />
+    <history-entry file="OrganizationMapperTest_selectAll - 2017.07.22 at 19h 34m 45s.xml">
+      <configuration name="OrganizationMapperTest.selectAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiscussServiceImplTest_selectDiscussUserByVideoId - 2017.07.15 at 21h 51m 09s.xml">
-      <configuration name="DiscussServiceImplTest.selectDiscussUserByVideoId" configurationId="JUnit" />
+    <history-entry file="OrganizationMapperTest_selectAll - 2017.07.22 at 19h 53m 41s.xml">
+      <configuration name="OrganizationMapperTest.selectAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiscussServiceImplTest_selectDiscussUserByVideoId - 2017.07.15 at 21h 52m 25s.xml">
-      <configuration name="DiscussServiceImplTest.selectDiscussUserByVideoId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestionServiceTest_selectAllQuestionWrapByVideoId - 2017.07.15 at 20h 41m 01s.xml">
-      <configuration name="QuestionServiceTest.selectAllQuestionWrapByVideoId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestionServiceTest_selectAllQuestionWrapByVideoId - 2017.07.15 at 20h 55m 44s.xml">
-      <configuration name="QuestionServiceTest.selectAllQuestionWrapByVideoId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestionServiceTest_selectAllQuestionWrapByVideoId - 2017.07.15 at 20h 59m 54s.xml">
-      <configuration name="QuestionServiceTest.selectAllQuestionWrapByVideoId" configurationId="JUnit" />
+    <history-entry file="OrganizationMapperTest_selectAll - 2017.07.22 at 19h 55m 09s.xml">
+      <configuration name="OrganizationMapperTest.selectAll" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuestionServiceTest_selectAllQuestionWrapByVideoId - 2017.07.15 at 21h 00m 39s.xml">
       <configuration name="QuestionServiceTest.selectAllQuestionWrapByVideoId" configurationId="JUnit" />
@@ -2074,18 +1945,28 @@
     <history-entry file="QuestionServiceTest_selectAllQuestionWrapByVideoId - 2017.07.15 at 21h 47m 17s.xml">
       <configuration name="QuestionServiceTest.selectAllQuestionWrapByVideoId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserAudioMapperTest_selectById - 2017.07.21 at 16h 37m 35s.xml">
+      <configuration name="UserAudioMapperTest.selectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserAudioMapperTest_selectByUserId - 2017.07.21 at 16h 49m 37s.xml">
+      <configuration name="UserAudioMapperTest.selectByUserId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_sailing_web_in_sailing_web - 2017.07.18 at 13h 51m 56s.xml">
+      <configuration name="com.sailing.web in sailing_web" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157665000" />
+    <option name="totallyTimeSpent" value="275870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49588138" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17715959" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15153733" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2093,18 +1974,18 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10761347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49093905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47611204" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28500825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35643566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39538714" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6853377" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377745" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24450952" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26061493" sideWeight="0.5140845" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -2113,44 +1994,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25183016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2339374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43163097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35255355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18649046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -2158,9 +2004,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2169,373 +2020,454 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/service/QuestionServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/dao/DiscussMapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/DiscussMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/CourseFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="139">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/dao/UserMapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/service/DiscussServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/constant/MyConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/CourseFileMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="21">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CourseFileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding>
+            <marker date="1500712134118" expanded="true" signature="725:832" ph="select from course_file" />
+            <marker date="1500712134118" expanded="true" signature="917:1048" ph="select cours... course_file" />
+            <marker date="1500712134118" expanded="true" signature="1127:1188" ph="delete from " />
+            <marker date="1500712134118" expanded="true" signature="1330:1497" ph="insert into course_file... " />
+            <marker date="1500712134118" expanded="true" signature="2354:2716" ph="update cours... " />
+            <marker date="1500712134118" expanded="true" signature="2806:3003" ph="update cours... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/org/omg/PortableInterceptor/ACTIVE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="39" column="131" lean-forward="false" selection-start-line="39" selection-start-column="131" selection-end-line="39" selection-end-column="131" />
+        <state relative-caret-position="126">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/QuestionMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrganizationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="142">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <marker date="1500723171004" expanded="true" signature="806:918" ph="select from sys_organization" />
+            <marker date="1500723171004" expanded="true" signature="988:1061" ph="select from sys_organization" />
+            <marker date="1500723171004" expanded="true" signature="1139:1205" ph="delete from " />
+            <marker date="1500723171004" expanded="true" signature="1349:1587" ph="insert into sys_organization... " />
+            <marker date="1500723171004" expanded="true" signature="2667:3126" ph="update sys_o... " />
+            <marker date="1500723171004" expanded="true" signature="3218:3463" ph="update sys_o... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video——save.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/admin-course.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="316" column="36" lean-forward="true" selection-start-line="316" selection-start-column="36" selection-end-line="316" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/AnswerMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/CourseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/Answer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/dao/OrganizationMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="151">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/OrganizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/AnswerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/OrganizationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.0/repository/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4-sources.jar!/com/fasterxml/jackson/annotation/JsonInclude.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AnswerMapper.xml">
+    <entry file="jar://D:/apache-maven-3.5.0/repository/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="40" column="128" lean-forward="false" selection-start-line="40" selection-start-column="128" selection-end-line="40" selection-end-column="128" />
+        <state relative-caret-position="92">
+          <caret line="918" column="64" lean-forward="false" selection-start-line="918" selection-start-column="64" selection-end-line="918" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/AnswerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/OrganizationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminCourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="250">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminFileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="344">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="method#fileUpload#0;class#AdminFileController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/Question.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/file-upload.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="578">
+          <caret line="298" column="14" lean-forward="true" selection-start-line="298" selection-start-column="14" selection-end-line="298" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/AnswerUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/content/course.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="317" column="33" lean-forward="true" selection-start-line="317" selection-start-column="33" selection-end-line="317" selection-end-column="33" />
+          <folding>
+            <element signature="e#15223#15230#1#HTML" expanded="false" />
+            <marker date="1500729667472" expanded="false" signature="30955:30977" ph="..." />
+            <marker date="1500729667472" expanded="false" signature="32179:33446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="78" lean-forward="false" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CourseOrganizationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <marker date="1500729924322" expanded="true" signature="681:796" ph="select from course_organization" />
+            <marker date="1500729924322" expanded="true" signature="866:942" ph="select from course_organization" />
+            <marker date="1500729924322" expanded="true" signature="1020:1089" ph="delete from " />
+            <marker date="1500729924322" expanded="true" signature="1183:1363" ph="insert into course_organization... " />
+            <marker date="1500729924322" expanded="true" signature="2193:2490" ph="update cours... " />
+            <marker date="1500729924322" expanded="true" signature="2588:2761" ph="update cours... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/dao/UserAudioMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/sailing/dao/CourseOrganizationMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/CourseOrganization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/dao/CourseOrganizationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseOrganizationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/course/CourseOrganizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/AudioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/content/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="150" column="26" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+          <folding>
+            <marker date="1500730771203" expanded="true" signature="12883:12914" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/android/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/common.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/QuestionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/admin/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="25">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/android/AnLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="919">
+          <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/QuestionServiceImpl.java">
+    <entry file="jar://D:/apache-maven-3.5.0/repository/org/springframework/spring-web/4.1.4.RELEASE/spring-web-4.1.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="192">
+          <caret line="309" column="20" lean-forward="false" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22994#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="method#getKaptchaImage#0;class#LoginController#0" expanded="false" />
+            <element signature="method#signUp#0;class#LoginController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionWrapUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="223">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionWrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussWrapUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussWrap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/DiscussService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/service/DiscussServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/user-center.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="164" column="3" lean-forward="true" selection-start-line="164" selection-start-column="3" selection-end-line="164" selection-end-column="3" />
+        <state relative-caret-position="123">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/structure.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="106" column="17" lean-forward="false" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/DiscussUserWrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#597#598#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/question.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <marker date="1500205038774" expanded="true" signature="8097:8111" ph="..." />
-            <marker date="1500205038774" expanded="true" signature="8402:8427" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/content/main-frame.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="112">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9105dc87-b3d5-424c-87ad-2d2c989a25b6/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/entity/model/QuestionWrapUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/content/course-frame.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        <state relative-caret-position="123">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        <state relative-caret-position="22">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="method#uploadHeadPic#0;class#UserController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/content/note-frame.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/disscuss-note.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user-center.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="145" column="86" lean-forward="false" selection-start-line="145" selection-start-column="86" selection-end-line="145" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/note.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="143" column="27" lean-forward="false" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/course.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="144" column="30" lean-forward="false" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="197" column="21" lean-forward="false" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="427" column="9" lean-forward="false" selection-start-line="427" selection-start-column="9" selection-end-line="427" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="333" column="48" lean-forward="false" selection-start-line="333" selection-start-column="48" selection-end-line="333" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.0/repository/org/springframework/spring-core/4.1.4.RELEASE/spring-core-4.1.4.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="e#2943#2944#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/DiscussController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sailing/web/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/question.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+          <folding>
+            <marker date="1500771613920" expanded="true" signature="8101:8115" ph="..." />
+            <marker date="1500771613920" expanded="true" signature="8406:8431" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/video/video-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="227" column="21" lean-forward="true" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#2;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,6 +17,12 @@
     from sys_organization
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from sys_organization
+  </select>
   <delete id="deleteById" parameterType="java.lang.Integer">
     delete from sys_organization
     where id = #{id,jdbcType=INTEGER}

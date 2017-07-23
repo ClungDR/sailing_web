@@ -13,72 +13,8 @@
 
 
 </head>
-<script type="text/javascript">
-    <%--工具js--%>
-    Date.prototype.format = function(fmt) {
-        var o = {
-            "M+" : this.getMonth()+1,                 //月份
-            "d+" : this.getDate(),                    //日
-            "h+" : this.getHours(),                   //小时
-            "m+" : this.getMinutes(),                 //分
-            "s+" : this.getSeconds(),                 //秒
-            "q+" : Math.floor((this.getMonth()+3)/3), //季度
-            "S"  : this.getMilliseconds()             //毫秒
-        };
-        if(/(y+)/.test(fmt)) {
-            fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
-        }
-        for(var k in o) {
-            if(new RegExp("("+ k +")").test(fmt)){
-                fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
-            }
-        }
-        return fmt;
-    }
-</script>
 
-
-
-<style type="text/css">
-    .navbar{
-        margin-bottom: 0;
-    }
-    .navbar-brand{
-        font-size: inherit;
-    }
-    .navbar-nav{
-        padding-top: 15px;
-    }
-    .navbar-nav li a{
-        font-size: 18px;
-    }
-    .navbar-nav li.nav-head-pic a{
-        padding: 0;
-    }
-    .navbar-nav li a img{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-</style>
-
-<body>
-<header class="navbar navbar-static-top bs-docs-nav" id="top">
-    <div class="container">
-        <h1 class="navbar-header">
-            <a href="../" class="navbar-brand">视频学习</a>
-        </h1>
-
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" onclick="" target="_blank">我的消息</a></li>
-            <li><a href="#" onclick="" target="_blank">我的收藏</a></li>
-            <li><a href="#" onclick="" target="_blank">历史记录</a></li>
-            <li class="nav-head-pic"><a href="#" onclick="" target="_blank">Memory&nbsp&nbsp<img src="${resPath}/images/headPic/default.jpg"/></a></li>
-            <li><a href="#" onclick="" target="_blank">退出</a></li>
-        </ul>
-        </nav>
-    </div>
-</header>
+<%@include file="/WEB-INF/pages/common/header.jsp"%>
 
 
 <style type="text/css">
@@ -311,7 +247,7 @@
             }
             player = flvjs.createPlayer({
                 type:"flv",
-                url:resPath+"/data/video/out_meta.flv"
+                url:resPath+"/data/video/"+"${video.path}"
             }, {
                 enableWorker: false,
 //                lazyLoad:false,
@@ -395,7 +331,7 @@
                 uploadBtn.attr("disabled",true);
                 $.ajax({
                     type: "POST",
-                    url: basePath+"/video/add-discuss",
+                    url: basePath+"/discuss/addDiscuss",
                     data: params,　　//这里上传的数据使用了formData 对象
                     success:function (data) {
                         text="";
@@ -432,7 +368,7 @@
     function ajaxLoadDiscuss() {
         $.ajax({
             type:"post",
-            url:basePath+"/video/discussUserWrap",
+            url:basePath+"/discuss/discussUserWrap",
             data:{videoId:1},
             success:function (data) {
                 parseDiscuss(data);

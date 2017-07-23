@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import com.sailing.dao.OrganizationMapper;
 import com.sailing.entity.Organization;
 
-
 @Service
 public class OrganizationServiceImpl implements OrganizationService {
 	@Autowired
@@ -26,7 +25,6 @@ public class OrganizationServiceImpl implements OrganizationService {
 		return organization;
 	}
 
-
 	@Override
 	public void deleteOrganization(Integer organizationId) {
 		organizationMapper.deleteById(organizationId);
@@ -39,19 +37,18 @@ public class OrganizationServiceImpl implements OrganizationService {
 
 	@Override
 	public List<Organization> selectAll() {
-//		return organizationMapper.selectAll();
-		return null;
+		return organizationMapper.selectAll();
 	}
 
 	@Override
 	public List<Organization> selectAllWithExclude(
 	        Organization excludeOraganization) {
-//		return organizationMapper.selectAllWithExclude(excludeOraganization);
+		// return organizationMapper.selectAllWithExclude(excludeOraganization);
 		return null;
 	}
 
 	@Override
 	public void move(Organization source, Organization target) {
-//		organizationMapper.move(source, target);
+		// organizationMapper.move(source, target);
 	}
 }

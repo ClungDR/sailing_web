@@ -6,15 +6,17 @@ import com.sailing.entity.Organization;
 
 public interface OrganizationService {
 
+	Organization createOrganization(Organization organization);
 
-    public Organization createOrganization(Organization organization);
-    public Organization updateOrganization(Organization organization);
-    public void deleteOrganization(Integer organizationId);
+	Organization updateOrganization(Organization organization);
 
-    Organization selectOne(Integer organizationId);
-    List<Organization> selectAll();
+	void deleteOrganization(Integer organizationId);
 
-    Object selectAllWithExclude(Organization excludeOraganization);
+	Organization selectOne(Integer organizationId);
 
-    void move(Organization source, Organization target);
+	List<Organization> selectAll();
+
+	Object selectAllWithExclude(Organization excludeOraganization);
+
+	void move(Organization source, Organization target);
 }

@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.Date;
 
 public class Answer {
-    @JsonIgnore
     private Integer id;
 
     private String userId;

@@ -168,7 +168,7 @@
 
             $.ajax({
                 type: "POST",
-                url: basePath+"/video/add-question",
+                url: basePath+"/question/addQuestion",
                 data: params,
                 success:function (data) {
                     textDom.val("");
@@ -218,7 +218,7 @@
             };
             $.ajax({
                 type:"post",
-                url:basePath+"/video/add-answer",
+                url:basePath+"/question/addAnswer",
                 data:params,
                 success:function(data){
                     if(data.length==0||data==null){
@@ -292,7 +292,7 @@
     function ajaxLoadQuestion(){
         $.ajax({
             type:"post",
-            url:basePath+"/video/questionWrapUser",
+            url:basePath+"/question/questionWrapUser",
             data:{videoId:1},
             success:function(data){
                 if(data!=null&&data!=undefined)

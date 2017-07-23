@@ -1,5 +1,7 @@
 package com.sailing.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Organization {
     private Integer id;
 
@@ -50,11 +52,11 @@ public class Organization {
     public void setAvailable(Boolean available) {
         this.available = available;
     }
-
+    @JsonIgnore
     public boolean isRootNode() {
         return parentId == 0;
     }
-
+    @JsonIgnore
     public String makeSelfAsParentIds() {
         return getParentIds() + getId() + "/";
     }
