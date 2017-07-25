@@ -20,6 +20,12 @@
     from audio
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByKeyword" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from audio
+    where `name` LIKE #{keyword,jdbcType=VARCHAR}
+  </select>
   <delete id="deleteById" parameterType="java.lang.Integer">
     delete from audio
     where id = #{id,jdbcType=INTEGER}

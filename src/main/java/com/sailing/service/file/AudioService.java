@@ -24,5 +24,5 @@ public interface AudioService {
 
     List<Audio> selectAudios(List<Integer> ids);
 
-
+    List<Audio> selectByKeyword(String keyword);
 }

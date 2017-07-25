@@ -48,12 +48,6 @@ public class MyTest {
     }
 
 	public static void main(String[] args) throws JSONException {
-       String str="[]";
-//       str=str.replaceAll("\\[|\\]","");
-//        System.out.println(str.length());
 
-        List<Integer> list=ListUtil.getListFromJSON(str);
-
-        System.out.println(list);
 	}
 }

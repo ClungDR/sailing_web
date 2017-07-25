@@ -37,7 +37,7 @@ public class QuestionController extends BaseController {
 	 */
 	@RequestMapping("/addQuestion")
 	@ResponseBody
-	public QuestionUser addComment(String description, Integer videoId,
+	public QuestionUser addQuestion(String description, Integer videoId,
 	        String userId) {
 		Question question = new Question(description, videoId);
 		question.setUserId(

@@ -9,57 +9,9 @@
 </head>
 
 
-<style type="text/css">
-
-    body{
-        position: relative;
-    }
-
-    .navbar{
-        margin-bottom: 0;
-    }
-    .navbar .navbar-header{
-        padding-top: 5px;
-        font-size: 24px;
-        margin:0;
-    }
-    .navbar .navbar-brand{
-        font-size: inherit;
-    }
-    .navbar .navbar-nav{
-        padding-top: 5px;
-    }
-    .navbar .navbar-nav li a{
-        font-size: 18px;
-        color: #0b9091;
-    }
-    .navbar .navbar-nav li.nav-head-pic a{
-        padding: 0 15px 0 15px;
-    }
-    .navbar .navbar-nav li a img{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-</style>
 
 <body>
-<header class="navbar navbar-static-top bs-docs-nav" id="top">
-    <div class="container">
-        <h3 class="navbar-header">
-            <a href="#" class="navbar-brand">个人中心</a>
-        </h3>
-
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" onclick="" target="_blank">我的消息</a></li>
-            <li><a href="#" onclick="" target="_blank">我的收藏</a></li>
-            <li><a href="#" onclick="" target="_blank">历史记录</a></li>
-            <li class="nav-head-pic"><a href="#" onclick="" target="_blank">Memory&nbsp&nbsp<img src="${resPath}/images/headPic/default.jpg"/></a></li>
-            <li><a href="#" onclick="" target="_blank">退出</a></li>
-        </ul>
-        </nav>
-    </div>
-</header>
+<%@include file="/WEB-INF/pages/common/header.jsp"%>
 
 <style type="text/css">
 

@@ -55,11 +55,6 @@ public class UserController extends BaseController{
         return "";
     }
 
-    @RequestMapping("/userCenter")
-    public String userCenter(){
-        return "user/user-center";
-    }
-
     @RequestMapping("/main")
     public String getMainPage(){
         return "user/main";

@@ -22,8 +22,7 @@ public class AdminController extends BaseController {
     CourseFileService courseFileService;
     @Autowired
 	CourseService courseService;
-	@Autowired
-	OrganizationService organizationService;
+
     @Autowired
     CourseOrganizationService courseOrganizationService;
 
@@ -47,22 +46,5 @@ public class AdminController extends BaseController {
     	return "admin/admin-course";
 	}
 
-	@RequestMapping("/getAllOrganization")
-	@ResponseBody
-	public List<Organization> getAllOrganization() {
-		return organizationService.selectAll();
-	}
-
-	@RequestMapping("/getAllCourses")
-	@ResponseBody
-	public List<Course> getAllCourses(){
-		List<Course> courses =courseService.selectAll();
-		return courses;
-	}
-	@RequestMapping("/getCourseOrgan")
-    @ResponseBody
-    public List<CourseOrganization> getCourseOrgan(){
-	    return courseOrganizationService.selectAll();
-    }
 
 }

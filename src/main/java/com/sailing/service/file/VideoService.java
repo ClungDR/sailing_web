@@ -2,6 +2,7 @@ package com.sailing.service.file;
 
 import com.sailing.entity.Video;
 
+import java.util.List;
 import java.util.Set;
 
 public interface VideoService {
@@ -18,4 +19,6 @@ public interface VideoService {
     void updateById(Video record);
 
     Set<String> selectPermissions(Integer id);
+
+    List<Video> selectByKeyword(String keyword);
 }

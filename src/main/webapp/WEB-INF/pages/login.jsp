@@ -178,7 +178,7 @@
                 if(data!="success")
                     alert(data);
                 else
-                    window.location.href="/user/userCenter";
+                    window.location.href="/user/main";
             }
         });
 

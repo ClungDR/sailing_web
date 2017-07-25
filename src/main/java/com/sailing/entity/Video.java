@@ -23,6 +23,8 @@ public class Video {
 
     private Date uploadTime;
 
+    private String cover;
+
     public Video() {
     }
 
@@ -111,5 +113,30 @@ public class Video {
 
     public void setUploadTime(Date uploadTime) {
         this.uploadTime = uploadTime;
+    }
+
+    public String getCover() {
+        return cover;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
+    }
+
+    @Override
+    public String toString() {
+        return "Video{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", tags='" + tags + '\'' +
+                ", length=" + length +
+                ", size=" + size +
+                ", path='" + path + '\'' +
+                ", userId='" + userId + '\'' +
+                ", resourceIds='" + resourceIds + '\'' +
+                ", uploadTime=" + uploadTime +
+                ", cover='" + cover + '\'' +
+                '}';
     }
 }

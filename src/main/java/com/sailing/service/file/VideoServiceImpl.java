@@ -7,6 +7,7 @@ import com.sailing.service.course.CourseFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
@@ -51,5 +52,10 @@ public class VideoServiceImpl implements VideoService {
 		Set<Integer> courseIds=courseFileService.selectCourseIdByFile(id, (int) FileConstants.VIDEO_FILE);
 
 		return null;
+	}
+
+	@Override
+	public List<Video> selectByKeyword(String keyword) {
+		return videoMapper.selectByKeyword(keyword);
 	}
 }

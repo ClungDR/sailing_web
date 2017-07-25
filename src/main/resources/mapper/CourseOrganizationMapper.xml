@@ -25,6 +25,16 @@
     delete from course_organization
     where id = #{id,jdbcType=INTEGER}
   </delete>
+
+  <delete id="deleteByOrganId" parameterType="java.lang.Integer">
+    delete from course_organization
+    where organization_id = #{organizationId,jdbcType=INTEGER}
+  </delete>
+
+    <delete id="deleteByCourseOrgan">
+        delete from course_organization
+        where course_id = #{courseId,jdbcType=INTEGER} AND organization_id = #{organizationId,jdbcType=INTEGER}
+    </delete>
   <insert id="insert" parameterType="com.sailing.entity.CourseOrganization">
     insert into course_organization (id, course_id, organization_id
       )

@@ -12,9 +12,11 @@
     <result column="user_id" jdbcType="VARCHAR" property="userId" />
     <result column="resource_ids" jdbcType="VARCHAR" property="resourceIds" />
     <result column="upload_time" jdbcType="TIMESTAMP" property="uploadTime" />
+    <result column="cover" jdbcType="VARCHAR" property="cover" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, `name`, description, tags, `length`, `size`, `path`, user_id, resource_ids, upload_time
+    id, `name`, description, tags, `length`, `size`, `path`, user_id, resource_ids, upload_time, 
+    cover
   </sql>
   <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -22,21 +24,27 @@
     from video
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByKeyword" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from video
+    where `name` LIKE #{keyword,jdbcType=INTEGER}
+  </select>
   <delete id="deleteById" parameterType="java.lang.Integer">
     delete from video
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.sailing.entity.Video" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+  <insert id="insert" parameterType="com.sailing.entity.Video">
     insert into video (id, `name`, description, 
       tags, `length`, `size`, 
       `path`, user_id, resource_ids, 
-      upload_time)
+      upload_time, cover)
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
       #{tags,jdbcType=VARCHAR}, #{length,jdbcType=INTEGER}, #{size,jdbcType=INTEGER}, 
       #{path,jdbcType=VARCHAR}, #{userId,jdbcType=VARCHAR}, #{resourceIds,jdbcType=VARCHAR}, 
-      #{uploadTime,jdbcType=TIMESTAMP})
+      #{uploadTime,jdbcType=TIMESTAMP}, #{cover,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.sailing.entity.Video" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+  <insert id="insertSelective" parameterType="com.sailing.entity.Video">
     insert into video
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -68,6 +76,9 @@
       </if>
       <if test="uploadTime != null">
         upload_time,
+      </if>
+      <if test="cover != null">
+        cover,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -101,6 +112,9 @@
       <if test="uploadTime != null">
         #{uploadTime,jdbcType=TIMESTAMP},
       </if>
+      <if test="cover != null">
+        #{cover,jdbcType=VARCHAR},
+      </if>
     </trim>
   </insert>
   <update id="updateByIdSelective" parameterType="com.sailing.entity.Video">
@@ -133,6 +147,9 @@
       <if test="uploadTime != null">
         upload_time = #{uploadTime,jdbcType=TIMESTAMP},
       </if>
+      <if test="cover != null">
+        cover = #{cover,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -146,7 +163,8 @@
       `path` = #{path,jdbcType=VARCHAR},
       user_id = #{userId,jdbcType=VARCHAR},
       resource_ids = #{resourceIds,jdbcType=VARCHAR},
-      upload_time = #{uploadTime,jdbcType=TIMESTAMP}
+      upload_time = #{uploadTime,jdbcType=TIMESTAMP},
+      cover = #{cover,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

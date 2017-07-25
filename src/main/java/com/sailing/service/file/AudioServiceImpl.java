@@ -62,5 +62,10 @@ public class AudioServiceImpl implements AudioService {
 		return audios;
 	}
 
+	@Override
+	public List<Audio> selectByKeyword(String keyword) {
+		return audioMapper.selectByKeyword(keyword);
+	}
+
 
 }

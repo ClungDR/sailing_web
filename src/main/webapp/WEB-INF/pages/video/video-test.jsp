@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="${resPath}/css/video-js.css">
     <script type="text/javascript" src="${resPath}/js/video.min.js"></script>
     <script type="text/javascript" src="${resPath}/js/flv.js"></script>
-
+    <script></script>
 
 
 </head>
-
+<body>
 <%@include file="/WEB-INF/pages/common/header.jsp"%>
 
 
@@ -73,6 +73,7 @@
             /*视频播放器的初始化代码*/
             window.onload=function(){
                 /*播放器的初始化代码*/
+                var videoPath="${video.path}";
                 function flv_load() {
                     var element = document.getElementsByName('videoElement')[0];
                     if (typeof player !== "undefined") {
@@ -85,7 +86,7 @@
                     }
                     player = flvjs.createPlayer({
                         type:"flv",
-                        url:resPath+"/data/video/out_meta.flv"
+                        url:resPath+"/data/video/${video.path}"
                     }, {
                         enableWorker: false,
 //                lazyLoad:false,
@@ -94,63 +95,14 @@
                     });
                     player.attachMediaElement(element);
                     player.load();
-
                 }
 
-                function flv_start() {
-                    player.play();
-                }
-
-                function flv_pause() {
-                    player.pause();
-                }
-
-                function flv_destroy() {
-                    player.pause();
-                    player.unload();
-                    player.detachMediaElement();
-                    player.destroy();
-                    player = null;
-                }
-
-                function flv_seekto() {
-                    var input = document.getElementsByName('seekpoint')[0];
-                    player.currentTime = parseFloat(input.value);
-                }
-
-                function getUrlParam(key, defaultValue) {
-                    var pageUrl = window.location.search.substring(1);
-                    var pairs = pageUrl.split('&');
-                    for (var i = 0; i < pairs.length; i++) {
-                        var keyAndValue = pairs[i].split('=');
-                        if (keyAndValue[0] === key) {
-                            return keyAndValue[1];
-                        }
-                    }
-                    return defaultValue;
-                }
-
-                var urlInputBox = document.getElementsByName('urlinput')[0];
-                var url = decodeURIComponent(getUrlParam('src', urlInputBox.value));
-                urlInputBox.value = url;
-
-//                var logcatbox = document.getElementsByName('logcatbox')[0];
-                flvjs.LoggingControl.addLogListener(function(type, str) {
-//                    logcatbox.value = ;
-//                    logcatbox.scrollTop = logcatbox.scrollHeight;
-                    console.log(str + '\n');
-                });
-
-                document.addEventListener('DOMContentLoaded', function () {
-
-                });
                 flv_load();
             };
         </script>
     </div>
     <%--评论的页面--%>
     <%@include file="../common/disscuss-note.jsp"%>
-
 
 </div>
 
@@ -223,170 +175,6 @@
     </div>
 </div>
 <%--初始化播放器页面--%>
-<script type="text/javascript">
-    window.onload=function(){
-        /*播放器的初始化代码*/
-        function flv_load() {
-            var element = document.getElementsByName('videoElement')[0];
-            if (typeof player !== "undefined") {
-                if (player != null) {
-                    player.unload();
-                    player.detachMediaElement();
-                    player.destroy();
-                    player = null;
-                }
-            }
-            player = flvjs.createPlayer({
-                type:"flv",
-                url:resPath+"/data/video/out_meta.flv"
-            }, {
-                enableWorker: false,
-//                lazyLoad:false,
-                lazyLoadMaxDuration: 3 * 60,
-                seekType: 'range'
-            });
-            player.attachMediaElement(element);
-            player.load();
-
-        }
-
-        function flv_start() {
-            player.play();
-        }
-
-        function flv_pause() {
-            player.pause();
-        }
-
-        function flv_destroy() {
-            player.pause();
-            player.unload();
-            player.detachMediaElement();
-            player.destroy();
-            player = null;
-        }
-
-        function flv_seekto() {
-            var input = document.getElementsByName('seekpoint')[0];
-            player.currentTime = parseFloat(input.value);
-        }
-
-        function getUrlParam(key, defaultValue) {
-            var pageUrl = window.location.search.substring(1);
-            var pairs = pageUrl.split('&');
-            for (var i = 0; i < pairs.length; i++) {
-                var keyAndValue = pairs[i].split('=');
-                if (keyAndValue[0] === key) {
-                    return keyAndValue[1];
-                }
-            }
-            return defaultValue;
-        }
-
-        var urlInputBox = document.getElementsByName('urlinput')[0];
-        var url = decodeURIComponent(getUrlParam('src', urlInputBox.value));
-        urlInputBox.value = url;
-
-//                var logcatbox = document.getElementsByName('logcatbox')[0];
-        flvjs.LoggingControl.addLogListener(function(type, str) {
-//                    logcatbox.value = ;
-//                    logcatbox.scrollTop = logcatbox.scrollHeight;
-            console.log(str + '\n');
-        });
-
-        document.addEventListener('DOMContentLoaded', function () {
-
-        });
-        flv_load();
-        /*讨论的js提交代码*/
-        $(function(){
-            var discussListDom=$(".discuss-list-box ul");
-            var writeDisDom=$(".write-discuss");
-            var textDom=writeDisDom.children("textarea#discuss-input");
-            var restDom=writeDisDom.find("strong.discuss-length");
-            var uploadBtn=writeDisDom.find("button.btn-write-discuss");
-            var errorDom=writeDisDom.find(".error");
-            var text="";
-            textDom.on("input",function(){
-                text=textDom.val();
-                restDom.html(100-text.length);
-                errorDom.css("display","none");
-            });
-            uploadBtn.click(function(){
-                if(text==null||text.length==0){
-                    errorDom.html("请输入讨论内容！").css("display","inline-block");
-                    textDom.select();
-                    return;
-                }
-                var params={content:text,videoId:1};
-                uploadBtn.attr("disabled",true);
-                $.ajax({
-                    type: "POST",
-                    url: basePath+"/discuss/addDiscuss",
-                    data: params,　　//这里上传的数据使用了formData 对象
-                    success:function (data) {
-                        text="";
-                        textDom.val("");
-                        uploadBtn.attr("disabled",false);
-                        if(!(data instanceof Object)){
-                            data=$.parseJSON(data);
-                        }
-                        addDiscuss(data,discussListDom);
-                    },
-                    error:function () {
-                        uploadBtn.attr("disabled",false);
-                        errorDom.html("上传失败，请重试！").css("display","inline-block");
-                    }
-                });
-            });
-
-        });
-
-    };
-    /*添加discuss代码*/
-    function addDiscuss(data,discussListDom) {
-        var liDom=$("<li></li>");
-        var message="<div class='discuss-user-info'><a href='#' class='discuss-writer'><img src='"+resPath+"/images/headPic/"+data.user.headPic+"'/>&nbsp&nbsp"+data.user.username+"</a><p class='pull-right'>"+data.discuss.discussTime.substring(11,16)+"</p></div>"
-            +"<p  class='discuss-content'>"+data.discuss.content+"</p>";
-        liDom.html(message);
-        discussListDom.prepend(liDom);
-        if(discussListDom.children().length>50){
-            discussListDom.children("li:last-child").remove();
-        }
-//        discussListDom.children().remove();
-    };
-
-    function ajaxLoadDiscuss() {
-        $.ajax({
-            type:"post",
-            url:basePath+"/discuss/discussUserWrap",
-            data:{videoId:1},
-            success:function (data) {
-                parseDiscuss(data);
-            }
-        });
-    };
-    function parseDiscuss(data) {
-        var discusses=data.discusses;
-        var users=data.users;
-        var discussListDom=$(".discuss-list-box ul");
-        discusses.forEach(function (dis) {
-            var user=getUserByDisId(dis.userId,users);
-            addDiscuss({discuss:dis,user:user},discussListDom);
-        });
-    };
-    var getUserByDisId=function(id,users){
-        for(i=0;i<users.length;i++){
-            if(users[i].id==id){
-                var user=users[i];
-                return user;
-            }
-        }
-    }
-    
-    ajaxLoadDiscuss();
-
-</script>
 
 <%--调用问题的页面--%>
 <%@include file="/WEB-INF/pages/video/question.jsp"%>

@@ -7,6 +7,14 @@ public class CourseOrganization {
 
     private Integer organizationId;
 
+    public CourseOrganization() {
+    }
+
+    public CourseOrganization(Integer courseId, Integer organizationId) {
+        this.courseId = courseId;
+        this.organizationId = organizationId;
+    }
+
     public Integer getId() {
         return id;
     }

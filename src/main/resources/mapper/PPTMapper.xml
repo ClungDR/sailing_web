@@ -20,6 +20,13 @@
     from ppt_file
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+    <select id="selectByKeyWord" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from ppt_file
+        where `name` LIKE #{keyword,jdbcType=VARCHAR}
+    </select>
   <delete id="deleteById" parameterType="java.lang.Integer">
     delete from ppt_file
     where id = #{id,jdbcType=INTEGER}

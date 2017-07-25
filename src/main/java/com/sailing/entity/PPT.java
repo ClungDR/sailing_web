@@ -92,4 +92,18 @@ public class PPT {
     public void setUploadTime(Date uploadTime) {
         this.uploadTime = uploadTime;
     }
+
+    @Override
+    public String toString() {
+        return "PPT{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", page=" + page +
+                ", size=" + size +
+                ", path='" + path + '\'' +
+                ", resourceIds='" + resourceIds + '\'' +
+                ", userId='" + userId + '\'' +
+                ", uploadTime=" + uploadTime +
+                '}';
+    }
 }

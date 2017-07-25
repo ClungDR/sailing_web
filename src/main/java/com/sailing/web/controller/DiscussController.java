@@ -39,7 +39,8 @@ public class DiscussController extends BaseController {
 			user = userService.selectById(userId);
 		} else
 			user = (User) session.getAttribute(UserConstants.CURRENT_USER);
-		Discuss discuss = new Discuss(user.getId(), content, videoId);
+		Discuss discuss = new Discuss(content, videoId);
+		discuss.setUserId(user.getId());
 		discussService.insert(discuss);
 		DiscussUser discussWrap = new DiscussUser(
 		        discussService.selectById(discuss.getId()),

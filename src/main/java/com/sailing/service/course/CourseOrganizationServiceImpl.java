@@ -23,6 +23,16 @@ public class CourseOrganizationServiceImpl
 	}
 
 	@Override
+	public void deleteByOrganId(Integer organizationId) {
+		courseOrganizationMapper.deleteByOrganId(organizationId);
+	}
+
+	@Override
+	public void deleteByCourseOrgan(Integer courseId, Integer organizationId) {
+		courseOrganizationMapper.deleteByCourseOrgan(courseId,organizationId);
+	}
+
+	@Override
 	public void insert(CourseOrganization record) {
 		courseOrganizationMapper.insert(record);
 	}

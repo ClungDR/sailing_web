@@ -120,7 +120,7 @@
         function getAllCourses() {
             $.ajax({
                 type:"post",
-                url:basePath+"/admin/getAllCourses",
+                url:basePath+"/admin/course/getAllCourses",
                 success:function (data) {
                     return data;
                 },

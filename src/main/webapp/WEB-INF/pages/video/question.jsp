@@ -163,7 +163,7 @@
                 errorDom.html("请输入问题内容！").css("display","inline-block");
                 return;
             }
-            var params={description:text,videoId:1};
+            var params={description:text,videoId:"${video.id}"};
             submitBtn.attr("disabled",true);
 
             $.ajax({
@@ -293,7 +293,7 @@
         $.ajax({
             type:"post",
             url:basePath+"/question/questionWrapUser",
-            data:{videoId:1},
+            data:{videoId:"${video.id}"},
             success:function(data){
                 if(data!=null&&data!=undefined)
                     ExportQuestion(data);

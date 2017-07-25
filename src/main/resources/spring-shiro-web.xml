@@ -105,7 +105,7 @@
                 /logout = logout
                 /resources/**=anon
                 /user/**=loginFilter
-                /video=videoFilter
+                /video/**=loginFilter
             </value>
         </property>
     </bean>

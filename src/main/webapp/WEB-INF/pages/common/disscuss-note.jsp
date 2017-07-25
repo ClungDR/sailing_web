@@ -7,28 +7,28 @@ overflow: hidden;
 border: 1px solid #b1b1b1;
 border-radius: 0px 10px 10px 0px;
 }
-.discuss-header{
+.disc-note-box{
 margin: 0;
 padding: 10px;
 width: 100%;
 text-align: center;
 border-bottom: 1px solid #b1b1b1;
 }
-.discuss-header{
+.disc-note-box{
 font-size: 16px;
 color: #919191;
 }
-.discuss-header a{
+.disc-note-box a{
 padding: 0 5px 0 5px;
 text-decoration: none;
 cursor: pointer;
 color: #449d44;
 transition: all 0.5s;
 }
-.discuss-header a:hover{
+.disc-note-box a:hover{
 font-size: 18px;
 }
-.discuss-header .active{
+.disc-note-box .active{
 font-size: 24px;
 color: #277739;
 }
@@ -50,6 +50,9 @@ margin-bottom: 5px;
 }
 .write-box p strong{
 color: #423b3b;
+}
+.write-box .error{
+   float: right;
 }
 .content-list-box{
 max-height: 300px;
@@ -101,12 +104,11 @@ padding-left: 5px;
 </script>
 
 <div class="col-md-3 video-right">
-    <h3 class="discuss-header"><a class="btn-show-discuss"><span class="active"><i class="icon icon-comments-alt"></i>讨论</span></a><a class="btn-show-note"><span><i class=" icon-pencil"></i>笔记</span></a></h3>
-    <div class="discuss-box">
-
+    <h3 class="disc-note-box"><a class="btn-show-discuss"><span class="active"><i class="icon icon-comments-alt"></i>讨论</span></a><a class="btn-show-note"><span><i class=" icon-pencil"></i>笔记</span></a></h3>
+    <div class="discuss-box sub-box">
         <div class="write-box" >
             <p class="write-title" style="display: inline-block;">发表你的讨论：</p>
-            <p class="error text-danger error-discuss" style="display:none;">请输入讨论内容</p>
+            <p class="error text-danger" style="display:none;">请输入讨论内容</p>
             <textarea class="form-control" id="discuss-input" rows="3" maxlength="100" placeholder="发表你的讨论内容..."></textarea>
             <div style="margin-top: 5px;">
                 <p class="text-right" style="display: inline-block;">还可输入<strong class="discuss-length">100</strong>字</p>
@@ -114,35 +116,18 @@ padding-left: 5px;
         </div>
         <div class="content-list-box">
             <ul id="discuss-list">
-                <li>
-                    <div class="content-user-info"><a href="#" class="writer-name"><img src="${resPath}/images/headPic/default.jpg"/>&nbsp&nbspmemory</a><p class="pull-right">7月2日</p></div>
-                    <p class="back-content">dasdasdasdadasdadasdassdasdadadasdhasdhasdadlassddasdasdasddasdadasd大华三dasdasdadasdasd路多哈的好伐啦大神多垃圾三六九等大三几点啦就是大</p>
-                </li>
-                <li>
-                    <div class="content-user-info"><a href="#" class="writer-name"><img src="${resPath}/images/headPic/default.jpg"/>&nbsp&nbspmemory</a><p class="pull-right">7月2日</p></div>
-                    <p  class="back-content">dasdasdasdadasdadasdassdasdadadasdhasdhasdadlassddasdasdasddasdadasd大华三dasdasdadasdasd路多哈的好伐啦大神多垃圾三六九等大三几点啦就是大</p>
-                </li><li>
-                <div class="content-user-info"><a href="#" class="writer-name"><img src="${resPath}/images/headPic/default.jpg"/>&nbsp&nbspmemory</a><p class="pull-right">7月2日</p></div>
-                <p class="back-content">dasdasdasdadasdadasdassdasdadadasdhasdhasdadlassddasdasdasddasdadasd大华三dasdasdadasdasd路多哈的好伐啦大神多垃圾三六九等大三几点啦就是大</p>
-            </li><li>
-                <div class="content-user-info"><a href="#" class="writer-name"><img src="${resPath}/images/headPic/default.jpg"/>&nbsp&nbspmemory</a><p class="pull-right">7月2日</p></div>
-                <p class="back-content">dasdasdasdadasdadasdassdasdadadasdhasdhasdadlassddasdasdasddasdadasd大华三dasdasdadasdasd路多哈的好伐啦大神多垃圾三六九等大三几点啦就是大</p>
-            </li><li>
-                <div class="content-user-info"><a href="#" class="writer-name"><img src="${resPath}/images/headPic/default.jpg"/>&nbsp&nbspmemory</a><p class="pull-right">7月2日</p></div>
-                <p class="back-content">da class="back-content"sdasdasdadasdadasdassdasdadadasdhasdhasdadlassddasdasdasddasdadasd大华三dasdasdadasdasd路多哈的好伐啦大神多垃圾三六九等大三几点啦就是大</p>
-            </li>
+
             </ul>
         </div>
     </div>
-    <div class="note-box"   style="display: none;">
+    <div class="note-box sub-box"   style="display: none;">
 
         <div class="write-box">
             <p class="write-title" style="display: inline-block;">记录笔记：</p>
-            <p class="error text-danger error-note" style="display:none;">请输入笔记内容</p>
+            <p class="error text-danger" style="display:none;">请输入笔记内容</p>
             <textarea class="form-control" id="note-input" rows="3" maxlength="500" placeholder="输入笔记内容..."></textarea>
-            <div style="margin-top: 5px;">
-                <p class="text-right" style="display: inline-block;">还可输入<strong class="discuss-length">500</strong>字</p>
-                <button class="btn btn-success pull-right btn-write-box">保存笔记</button></div>
+            <div style="margin-top: 5px;" class="text-right">
+                <button class="btn btn-success btn-write-box">保存笔记</button></div>
         </div>
         <div class="content-list-box">
             <ul>
@@ -170,48 +155,63 @@ padding-left: 5px;
 
 
 <script type="text/javascript">
-    /*讨论的js提交代码*/
     $(function(){
-        var discussListDom=$(".discuss-box .discuss-list-box ul");
-        var writeDisDom=$(".discuss-box .write-discuss");
-        var textDom=writeDisDom.children("textarea#discuss-input");
-        var restDom=writeDisDom.find("strong.discuss-length");
-        var uploadBtn=writeDisDom.find("button.btn-write-discuss");
-        var errorDom=writeDisDom.find(".error-discuss");
-        var text="";
-        textDom.on("input",function(){
-            text=textDom.val();
-            restDom.html(100-text.length);
-            errorDom.css("display","none");
+        $(".video-right").on("input","textarea",function(){
+            $(this).parent().find(".discuss-length").text(100-$(this).val().length);
+            $(this).parent().find("p.error").css("display","none");
+            if($(this).val().length==100){
+                $(this).parent().find("p.error").html("讨论最多输入100字").fadeIn(600);
+            }
         });
-        uploadBtn.click(function(){
-            if(text==null||text.length==0){
-                errorDom.html("请输入讨论内容！").css("display","inline-block");
-                textDom.select();
+        $(".video-right").on("click",".btn",function () {
+            var parentDom=$(this).closest(".write-box");
+            var text=parentDom.find("textarea").val();
+            if(text.length==0){
+                parentDom.find("p.error").html("请输入内容！").fadeIn(600);
+                parentDom.find("textarea").select();
                 return;
             }
-            var params={content:text,videoId:1};
-            uploadBtn.attr("disabled",true);
+            var params;
+            var url;
+            var isDiscuss=false;
+            if($(this).html()=="发起讨论"){
+                params={content:text,videoId:"${video.id}"};
+                url="/discuss/addDiscuss";
+                isDiscuss=true;
+            }else{
+                params={content:text,fileId:"${video.id}",fileType:1};
+                url="/note/addNote";
+                isDiscuss=false;
+            }
+            var ulDom=$(this).closest(".sub-box").find("ul");
             $.ajax({
-                type: "POST",
-                url: basePath+"/discuss/add-discuss",
-                data: params,　　//这里上传的数据使用了formData 对象
+                type:"post",
+                url:basePath+url,
+                data:params,
                 success:function (data) {
-                    text="";
-                    textDom.val("");
-                    uploadBtn.attr("disabled",false);
-                    if(!(data instanceof Object)){
-                        data=$.parseJSON(data);
-                    }
-                    addDiscuss(data,discussListDom);
+                    parentDom.find("textarea").text("");
+                    console.log(user);
+                    addMessage(isDiscuss,data,ulDom);
                 },
                 error:function () {
-                    uploadBtn.attr("disabled",false);
-                    errorDom.html("上传失败，请重试！").css("display","inline-block");
+                    parentDom.find("p.error").html("上传数据失败！").fadeIn(600);
                 }
             });
-        });
 
+
+        });
+        function addMessage(isDiscuss,data,parentDom){
+            var liDom=$("<li></li>");
+            var message="";
+            if(isDiscuss){
+                message="<div class='content-user-info'><a href='#' class='writer-name'><img src='"+resPath+"/images/headPic/"+data.user.headPic+"'/>&nbsp&nbsp"+data.user.username+"</a><p class='pull-right'>"+data.discuss.discussTime.substring(11,16)+"</p></div>"+
+                    "<p class='back-content'>"+data.discuss.content+"</p>";}
+            else{
+                message="<div class='content-user-info'><a href='#' class='writer-name'><img src='"+resPath+"/images/headPic/"+user.headPic+"'/>&nbsp&nbsp"+user.username+"</a><p class='pull-right'>"+data.createTime.substring(11,16)+"</p></div>"+
+                    "<p class='back-content'>"+data.content+"</p>";}
+            liDom.html(message);
+            parentDom.prepend(liDom);
+        };
     });
 
     /*讨论的加载代码*/
@@ -221,7 +221,7 @@ padding-left: 5px;
             $.ajax({
                 type:"post",
                 url:basePath+"/discuss/discussUserWrap",
-                data:{videoId:1},
+                data:{videoId:"${video.id}"},
                 success:parseDiscuss,
                 error:function () {
                     console.log("获取讨论列表失败");
@@ -259,6 +259,37 @@ padding-left: 5px;
             }
         };
         ajaxLoadDiscuss();
+    });
+
+    /*笔记的加载代码*/
+    $(function(){
+        /*笔记的异步加载代码*/
+        function ajaxLoadNote() {
+            $.ajax({
+                type:"post",
+                url:basePath+"/note/getAllByFile",
+                data:{fileId:"${video.id}",fileType:1},
+                success:function (data) {
+                    parseNote(data,$(".note-box").find("ul"));
+                },
+                error:function () {
+                    console.log("获取讨论列表失败");
+                }
+            });
+        };
+        /*解析讨论的返回结果*/
+        function parseNote(data,parentDom) {
+            data.forEach(function (note) {
+                var liDom=$("<li></li>");
+                var message="<div class='content-user-info'><a href='#' class='writer-name'><img src='"+resPath+"/images/headPic/"+user.headPic+"'/>&nbsp&nbsp"+user.username+"</a><p class='pull-right'>"+note.createTime.substring(11,16)+"</p></div>"
+                    +"<p  class='back-content'>"+note.content+"</p>";
+                liDom.html(message);
+                parentDom.prepend(liDom);
+            });
+
+        };
+
+        ajaxLoadNote();
     });
 
 </script>

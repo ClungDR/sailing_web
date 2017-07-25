@@ -10,6 +10,7 @@ import java.util.List;
 
 import com.sailing.util.ListUtil;
 import org.apache.shiro.crypto.hash.Md5Hash;
+import org.bytedeco.javacpp.presets.opencv_core;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -75,20 +76,7 @@ public class AdminFileController extends BaseController{
                 session.getAttribute(UserConstants.CURRENT_USER_ID)).toString();
         String filePath="";
         Short fileType=0;
-//		判断文件类型，保存在分开的文件夹下
-        if(extension.equalsIgnoreCase(".xls")||extension.equalsIgnoreCase(".xlsx")){
-            filePath=rootFilePath+"/excel";
-            fileType=EXCEL_FILE;
-        }else if(extension.equalsIgnoreCase(".mp4")||extension.equalsIgnoreCase(".flv")){
-            filePath=rootFilePath+"/video";
-            fileType= FileConstants.VIDEO_FILE;
-        }else if(extension.equalsIgnoreCase(".mp3")){
-            filePath=rootFilePath+"/audio";
-            fileType=FileConstants.AUDIO_FILE;
-        }else if(extension.equalsIgnoreCase(".ppt")||extension.equalsIgnoreCase(".pptx")){
-            filePath=rootFilePath+"/ppt";
-            fileType=FileConstants.PPT_FILE;
-        }else filePath=rootFilePath+"/temp";
+
 //        打开文件夹
         File parent = new File(filePath);
         if (!parent.exists())
@@ -145,6 +133,24 @@ public class AdminFileController extends BaseController{
             default:return "保存文件失败！";
         }
 
+    }
+    //		判断文件类型，保存在分开的文件夹下
+    public static short getFileType(String extension,String filePath,String rootFilePath){
+       short fileType=0;
+        if(extension.equalsIgnoreCase(".xls")||extension.equalsIgnoreCase(".xlsx")){
+            filePath=rootFilePath+"/excel";
+            fileType=EXCEL_FILE;
+        }else if(extension.equalsIgnoreCase(".mp4")||extension.equalsIgnoreCase(".flv")){
+            filePath=rootFilePath+"/video";
+            fileType= FileConstants.VIDEO_FILE;
+        }else if(extension.equalsIgnoreCase(".mp3")){
+            filePath=rootFilePath+"/audio";
+            fileType=FileConstants.AUDIO_FILE;
+        }else if(extension.equalsIgnoreCase(".ppt")||extension.equalsIgnoreCase(".pptx")){
+            filePath=rootFilePath+"/ppt";
+            fileType=FileConstants.PPT_FILE;
+        }else filePath=rootFilePath+"/temp";
+        return fileType;
     }
 
 

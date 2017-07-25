@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50717
 File Encoding         : 65001
 
-Date: 2017-07-23 09:49:05
+Date: 2017-07-25 11:49:12
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,7 +28,7 @@ CREATE TABLE `answer` (
   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `hit` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of answer
@@ -59,6 +59,8 @@ INSERT INTO `answer` VALUES ('24', '2017010001', '2', null, '这是个测试的�
 INSERT INTO `answer` VALUES ('25', '2017010001', '39', null, '2019:37测试测绘师的绝杀肯德基as', '2017-07-16 19:37:49', null);
 INSERT INTO `answer` VALUES ('26', '2017010001', '39', null, '再猜实打实地阿虎大的', '2017-07-16 19:37:55', null);
 INSERT INTO `answer` VALUES ('27', '2017010001', '39', null, '不知道说什么', '2017-07-20 14:38:39', null);
+INSERT INTO `answer` VALUES ('28', '2017010001', '42', null, '添加一个回复', '2017-07-23 15:41:36', null);
+INSERT INTO `answer` VALUES ('29', '2017010001', '43', null, 'this is a test answer\n', '2017-07-25 08:19:32', null);
 
 -- ----------------------------
 -- Table structure for audio
@@ -74,7 +76,7 @@ CREATE TABLE `audio` (
   `resource_ids` varchar(100) DEFAULT NULL,
   `upload_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of audio
@@ -95,6 +97,7 @@ INSERT INTO `audio` VALUES ('13', 'Dig Deep - Mazde,Lissa', null, '10444', '8136
 INSERT INTO `audio` VALUES ('14', 'Let It Out - Frances', null, '9248', 'f5b770513c71e6655ea2a619108f5b92.mp3', null, null, '2017-07-22 15:42:41');
 INSERT INTO `audio` VALUES ('15', 'Lukas Graham - 7 Years', null, '9379', '8ec6719ee3c60ce6f7ca0644232ff0c8.mp3', null, null, '2017-07-22 15:42:41');
 INSERT INTO `audio` VALUES ('16', 'Lost control - Painless Destiny', null, '3533', 'a13ced860dcca5eace9706be9bae340b.mp3', null, null, '2017-07-22 15:42:41');
+INSERT INTO `audio` VALUES ('17', 'All We Do - Oh Wonder', null, '5026', 'ffec67e33ac006a8059d7d344126da1e.mp3', '2017010001', null, '2017-07-23 15:55:36');
 
 -- ----------------------------
 -- Table structure for course
@@ -131,7 +134,7 @@ CREATE TABLE `course_file` (
   `file_id` int(11) DEFAULT NULL,
   `file_type` int(8) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of course_file
@@ -180,6 +183,7 @@ INSERT INTO `course_file` VALUES ('57', '5', '22', '2');
 INSERT INTO `course_file` VALUES ('58', '2', '22', '2');
 INSERT INTO `course_file` VALUES ('59', '4', '22', '2');
 INSERT INTO `course_file` VALUES ('60', '7', '22', '2');
+INSERT INTO `course_file` VALUES ('61', '2', '17', '3');
 
 -- ----------------------------
 -- Table structure for course_organization
@@ -190,14 +194,24 @@ CREATE TABLE `course_organization` (
   `course_id` int(11) DEFAULT NULL,
   `organization_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of course_organization
 -- ----------------------------
-INSERT INTO `course_organization` VALUES ('1', '1', '1');
-INSERT INTO `course_organization` VALUES ('2', '2', '2');
-INSERT INTO `course_organization` VALUES ('3', '3', '2');
+INSERT INTO `course_organization` VALUES ('12', '5', '5');
+INSERT INTO `course_organization` VALUES ('13', '4', '5');
+INSERT INTO `course_organization` VALUES ('20', '2', '4');
+INSERT INTO `course_organization` VALUES ('22', '4', '2');
+INSERT INTO `course_organization` VALUES ('25', '6', '6');
+INSERT INTO `course_organization` VALUES ('26', '7', '6');
+INSERT INTO `course_organization` VALUES ('32', '4', '7');
+INSERT INTO `course_organization` VALUES ('33', '2', '7');
+INSERT INTO `course_organization` VALUES ('35', '7', '7');
+INSERT INTO `course_organization` VALUES ('36', '6', '3');
+INSERT INTO `course_organization` VALUES ('37', '4', '3');
+INSERT INTO `course_organization` VALUES ('38', '5', '1');
+INSERT INTO `course_organization` VALUES ('39', '7', '1');
 
 -- ----------------------------
 -- Table structure for discuss
@@ -210,7 +224,7 @@ CREATE TABLE `discuss` (
   `discuss_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `video_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of discuss
@@ -261,6 +275,26 @@ INSERT INTO `discuss` VALUES ('43', '2017010001', 'da class=\"discuss-content\"s
 INSERT INTO `discuss` VALUES ('44', '2017010001', 'css中的position的定位，absolute和fixed有什么区别？', '2017-07-16 20:55:25', '1');
 INSERT INTO `discuss` VALUES ('45', '2017010001', '初识Html5和CSS', '2017-07-17 21:07:11', '1');
 INSERT INTO `discuss` VALUES ('46', '2017010001', '这是个测试讨论', '2017-07-23 09:26:21', '1');
+INSERT INTO `discuss` VALUES ('47', '2017010001', '这是个测试的讨论', '2017-07-23 15:10:02', '9');
+INSERT INTO `discuss` VALUES ('48', '2017010001', '大大 ', '2017-07-23 15:22:59', '9');
+INSERT INTO `discuss` VALUES ('49', '2017010001', '大大 ', '2017-07-23 15:23:01', '9');
+INSERT INTO `discuss` VALUES ('50', '2017010001', '大大 ', '2017-07-23 15:23:04', '9');
+INSERT INTO `discuss` VALUES ('51', '2017010001', '大大 ', '2017-07-23 15:23:05', '9');
+INSERT INTO `discuss` VALUES ('52', '2017010001', '大大 ', '2017-07-23 15:23:05', '9');
+INSERT INTO `discuss` VALUES ('53', '2017010001', '大大 ', '2017-07-23 15:23:05', '9');
+INSERT INTO `discuss` VALUES ('54', '2017010001', '测试', '2017-07-23 15:24:10', '9');
+INSERT INTO `discuss` VALUES ('55', '2017010001', '', '2017-07-23 15:24:37', '9');
+INSERT INTO `discuss` VALUES ('56', '2017010001', '测试讨论', '2017-07-23 15:25:09', '9');
+INSERT INTO `discuss` VALUES ('57', '2017010001', '难受', '2017-07-23 15:27:23', '9');
+INSERT INTO `discuss` VALUES ('58', '2017010001', '现在对了', '2017-07-23 15:28:02', '9');
+INSERT INTO `discuss` VALUES ('59', '2017010001', '读了吗', '2017-07-23 15:28:40', '9');
+INSERT INTO `discuss` VALUES ('60', '2017010001', 'xianziale ', '2017-07-23 15:29:30', '9');
+INSERT INTO `discuss` VALUES ('61', '2017010001', '个测试讨论', '2017-07-23 15:30:27', '9');
+INSERT INTO `discuss` VALUES ('62', '2017010001', 'nanshou ', '2017-07-23 15:34:54', '9');
+INSERT INTO `discuss` VALUES ('63', '2017010001', 'anshou', '2017-07-24 20:15:13', '9');
+INSERT INTO `discuss` VALUES ('64', '2017010001', '测试一下', '2017-07-24 20:57:15', '9');
+INSERT INTO `discuss` VALUES ('65', '2017010001', '测试不成功我吃', '2017-07-24 20:59:13', '9');
+INSERT INTO `discuss` VALUES ('66', '2017010001', '和难受', '2017-07-24 20:59:58', '9');
 
 -- ----------------------------
 -- Table structure for excel
@@ -295,6 +329,27 @@ CREATE TABLE `last_view_video` (
 -- ----------------------------
 -- Records of last_view_video
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for note
+-- ----------------------------
+DROP TABLE IF EXISTS `note`;
+CREATE TABLE `note` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(1000) DEFAULT NULL,
+  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `user_id` varchar(12) DEFAULT NULL,
+  `file_id` int(11) DEFAULT NULL,
+  `file_type` int(8) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of note
+-- ----------------------------
+INSERT INTO `note` VALUES ('1', 'this is a test note', '2017-07-24 19:36:24', '2017010001', '1', '3');
+INSERT INTO `note` VALUES ('2', '一定要成功', '2017-07-24 21:06:27', '2017010001', '1', '1');
+INSERT INTO `note` VALUES ('3', '建立一个笔记', '2017-07-24 21:06:20', '2017010001', '9', '1');
 
 -- ----------------------------
 -- Table structure for ppt_file
@@ -350,7 +405,7 @@ CREATE TABLE `question` (
   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `is_delete` int(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of question
@@ -395,6 +450,9 @@ INSERT INTO `question` VALUES ('37', '2017010001', '1', 'css的position属性各
 INSERT INTO `question` VALUES ('38', '2017010001', '1', 'css的position属性各有什么区别？', '2017-07-16 16:09:55', '0');
 INSERT INTO `question` VALUES ('39', '2017010001', '1', '大会上打哈师大好多号', '2017-07-16 17:08:58', '0');
 INSERT INTO `question` VALUES ('40', '2017010001', '1', '这是个测试问题', '2017-07-23 09:09:21', '0');
+INSERT INTO `question` VALUES ('41', '2017010001', '1', '添加第一个问题', '2017-07-23 15:38:52', '0');
+INSERT INTO `question` VALUES ('42', '2017010001', '9', '添加一个问题', '2017-07-23 15:41:21', '0');
+INSERT INTO `question` VALUES ('43', '2017010001', '9', 'this is a test question\n', '2017-07-25 08:19:19', '0');
 
 -- ----------------------------
 -- Table structure for sys_organization
@@ -564,21 +622,22 @@ CREATE TABLE `video` (
   `user_id` varchar(12) DEFAULT NULL,
   `resource_ids` varchar(100) DEFAULT NULL COMMENT '视频权限集',
   `upload_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `cover` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of video
 -- ----------------------------
-INSERT INTO `video` VALUES ('1', '初识Html5和CSS', null, null, null, null, 'out_meta.flv', null, '', '2017-07-16 21:49:31');
-INSERT INTO `video` VALUES ('2', 'out_meta.flv', null, null, null, '281471', '3152c26b0d6967bafdd58525f411ef23.flv', null, null, '2017-07-20 09:29:15');
-INSERT INTO `video` VALUES ('3', 'out_meta', null, null, null, '281471', '2dbe5cce202db3cac6cd05f63791ed4d.flv', null, null, '2017-07-20 09:36:42');
-INSERT INTO `video` VALUES ('4', 'out_meta', null, null, null, '281471', 'b9bc0f9bedada0095709715f74ae5531.flv', null, null, '2017-07-20 09:39:25');
-INSERT INTO `video` VALUES ('5', 'out_meta', null, null, null, '281471', 'a0f3b01cc501002ee6fb04f1210402d3.flv', null, null, '2017-07-20 09:40:16');
-INSERT INTO `video` VALUES ('6', 'out_meta', null, null, null, '281471', '17fb1e55a69f04a25ba19899642fc53a.flv', null, null, '2017-07-20 09:40:57');
-INSERT INTO `video` VALUES ('7', 'out_meta', null, null, null, '281471', '4eff5ca88c62403544644b79a8ae7f82.flv', null, null, '2017-07-20 09:41:14');
-INSERT INTO `video` VALUES ('8', 'out_meta', null, null, null, '281471', '183cfbd5e27535c1f45ace3bb3802109.flv', null, null, '2017-07-20 09:41:50');
-INSERT INTO `video` VALUES ('9', 'out_meta', null, null, null, '281471', 'a0379a8156078835bd2a70d1610f7469.flv', null, null, '2017-07-20 09:42:12');
-INSERT INTO `video` VALUES ('10', '【绅士动漫网】进击的巨人第二季 04 简体熟肉 更多精彩请关注微信公众号ssdm66', null, null, null, '253649', 'aabbc815a28695be7c3840cc8fb39413.mp4', null, null, '2017-07-21 16:16:40');
-INSERT INTO `video` VALUES ('11', '【绅士动漫网】进击的巨人第二季 03 720P简体熟肉 关注微信ssdm66第一时间获取熟肉', null, null, null, '259832', 'acebf841688d9914a863155f78dde289.mp4', null, null, '2017-07-21 16:16:49');
-INSERT INTO `video` VALUES ('12', '【绅士动漫网】进击的巨人第二季 02 720P繁体熟肉 关注微信ssdm66第一时间获取熟肉', null, null, null, '280417', '7ec8eb623fc96ee9b3a806f7a27ffc7e.mp4', null, null, '2017-07-21 16:16:53');
+INSERT INTO `video` VALUES ('1', 'C/C++基础', null, null, null, null, 'out_meta.flv', null, '', '2017-07-25 11:29:55', '1.jpg');
+INSERT INTO `video` VALUES ('2', 'JS基本语法', null, null, null, '281471', '3152c26b0d6967bafdd58525f411ef23.flv', null, null, '2017-07-25 11:30:03', '2.png');
+INSERT INTO `video` VALUES ('3', '关于JS的Dom对象的讲解', null, null, null, '281471', '2dbe5cce202db3cac6cd05f63791ed4d.flv', null, null, '2017-07-25 11:30:29', '2.png');
+INSERT INTO `video` VALUES ('4', 'JS进阶课程', null, null, null, '281471', 'b9bc0f9bedada0095709715f74ae5531.flv', null, null, '2017-07-25 11:30:45', '3.jpg');
+INSERT INTO `video` VALUES ('5', ' JS与JQuery', null, null, null, '281471', 'a0f3b01cc501002ee6fb04f1210402d3.flv', null, null, '2017-07-25 11:31:02', '2.png');
+INSERT INTO `video` VALUES ('6', ' Go基本语法', null, null, null, '281471', '17fb1e55a69f04a25ba19899642fc53a.flv', null, null, '2017-07-25 11:31:17', '4.png');
+INSERT INTO `video` VALUES ('7', ' R语言入门', null, null, null, '281471', '4eff5ca88c62403544644b79a8ae7f82.flv', null, null, '2017-07-25 11:31:23', '5.png');
+INSERT INTO `video` VALUES ('8', ' R语言进阶', null, null, null, '281471', '183cfbd5e27535c1f45ace3bb3802109.flv', null, null, '2017-07-25 11:31:33', '5.png');
+INSERT INTO `video` VALUES ('9', ' JQuery操作Dom节点', null, null, null, '281471', 'a0379a8156078835bd2a70d1610f7469.flv', null, null, '2017-07-25 11:31:57', '2.png');
+INSERT INTO `video` VALUES ('10', 'Go进阶编程', null, null, null, '253649', 'aabbc815a28695be7c3840cc8fb39413.mp4', null, null, '2017-07-25 11:32:21', '4.jpg');
+INSERT INTO `video` VALUES ('11', ' Go服务器编程', null, null, null, '259832', 'acebf841688d9914a863155f78dde289.mp4', null, null, '2017-07-25 11:33:33', '2.png');
+INSERT INTO `video` VALUES ('12', 'R语言数据分析', null, null, null, '280417', '7ec8eb623fc96ee9b3a806f7a27ffc7e.mp4', null, null, '2017-07-25 11:33:57', '5.png');

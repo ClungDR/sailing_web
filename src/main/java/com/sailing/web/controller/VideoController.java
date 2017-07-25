@@ -36,8 +36,9 @@ public class VideoController extends BaseController {
     }
 
 	@RequestMapping("/test")
-	public String videoPlayTest() {
-
+	public String videoPlayTest(Integer videoId, ModelMap modelMap) {
+        Video video=videoService.selectById(videoId);
+        modelMap.addAttribute("video",video);
 		return "video/video-test";
 	}
 

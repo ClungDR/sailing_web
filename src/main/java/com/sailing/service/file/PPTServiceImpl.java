@@ -5,6 +5,8 @@ import com.sailing.entity.PPT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PPTServiceImpl implements PPTService {
 	@Autowired
@@ -38,5 +40,10 @@ public class PPTServiceImpl implements PPTService {
 	@Override
 	public void updateById(PPT record) {
 		pptMapper.updateById(record);
+	}
+
+	@Override
+	public List<PPT> selectByKeyWord(String keyword) {
+		return pptMapper.selectByKeyWord(keyword);
 	}
 }

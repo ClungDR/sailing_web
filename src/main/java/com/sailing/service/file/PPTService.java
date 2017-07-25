@@ -2,6 +2,8 @@ package com.sailing.service.file;
 
 import com.sailing.entity.PPT;
 
+import java.util.List;
+
 public interface PPTService {
     void deleteById(Integer id);
 
@@ -14,4 +16,6 @@ public interface PPTService {
     void updateByIdSelective(PPT record);
 
     void updateById(PPT record);
+
+    List<PPT> selectByKeyWord(String keyword);
 }

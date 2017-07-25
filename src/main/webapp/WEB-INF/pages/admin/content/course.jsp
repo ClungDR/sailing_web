@@ -2,9 +2,13 @@
 
 <!-- page -->
 <script type="text/javascript">
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    });
+
+    Array.prototype.contains = function ( needle ) {
+        for (i in this) {
+            if (this[i] == needle) return true;
+        }
+        return false;
+    }
 </script>
 
 <style type="text/css">
@@ -173,79 +177,8 @@
                             </tr>
                             </thead>
 
+                            <tbody>
 
-                            <tbody role="alert" aria-live="polite" aria-relevant="all">
-                            <tr>
-                                <td class="">1</td>
-                                <td class="">安卓</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <li><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag" data-toggle="modal"  data-target="#course-modal"><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                </td>
-                            </tr> <tr>
-                                <td class="">1</td>
-                                <td class="">安卓</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <li><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag" data-toggle="modal"  data-target="#course-modal"><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                </td>
-                            </tr><tr>
-                                <td class="">1</td>
-                                <td class="">安卓</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <li><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag" data-toggle="modal"  data-target="#course-modal"><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                </td>
-                            </tr><tr>
-                                <td class="">1</td>
-                                <td class="">安卓</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <li><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag" data-toggle="modal"  data-target="#course-modal"><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                </td>
-                            </tr><tr>
-                                <td class="">1</td>
-                                <td class="">安卓</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <li><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag" data-toggle="modal"  data-target="#course-modal"><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                </td>
-                            </tr>
                             </tbody>
                             </table>
                             <!-- 模态框 -->
@@ -286,28 +219,25 @@
 </style>
 <script type="text/javascript">
 $(function(){
-    $.ajax({
-        type:"post",
-        url:basePath+"/admin/getAllCourses",
-        success:function (data) {
-            console.log(JSON.stringify(data));
-        },
-        error:function () {
-            alert("获取课程体系信息失败！");
-        }
-    });
-
-    $.ajax({
-        type:"post",
-        url:basePath+"/admin/getAllOrganization",
-        success:function (data) {
-            console.log(data);
-            parseOrganization(data);
-        },
-        error:function () {
-            alert("获取部门列表失败");
-        }
-    });
+    var allCourses;
+    var allOrganizations;
+    /*加载部门*/
+    function getAllOrganizations(){
+        $.ajax({
+            type:"post",
+            url:basePath+"/admin/organization/getAllOrganizations",
+            success:function (data) {
+                allOrganizations= data;
+                parseOrganization(data);
+            },
+            error:function () {
+                alert("获取部门列表失败");
+            },
+            complete:function(){
+                getAllCourses();
+            }
+        });
+    }
     function parseOrganization(data) {
         data.forEach(function (organization) {
             var organTbody=$(".organization-list").find("tbody");
@@ -315,36 +245,166 @@ $(function(){
         });
     }
     function addOrganization(data,parentDom) {
-        var trDOm=$("<tr></tr>");
+        var trDOm=$("<tr data-organ-id="+data.id+"></tr>");
         var message="<td>"+data.id+"</td>"+
             "<td>"+data.name+"</td><td>"+
             "<ul class='list-inline sub-list'>"+
-            "<li><a href='#'>安卓</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>"+
-            "</li>"+
-            "<li><a href='#'>web开发部</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>"+
-            "</li>"+
-            "<li><a href='#'>安卓研发部</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>"+
-            "</li>"+
-            "<a href='#' class='add-new-tag' data-toggle='modal'  data-target='#course-modal'><i  data-toggle='tooltip' data-original-title='添加部门' class=' icon-plus-sign'></i></a>"+
+            "<a href='#' class='add-new-tag' data-toggle='modal'  data-target='#course-modal'><i  data-toggle='tooltip' data-original-title='添加课程' class=' icon-plus-sign'></i></a>"+
             "</ul>"+
             "</td>";
+        trDOm.html(message);
+        parentDom.append(trDOm);
     }
-
-    var allCourse;
-    var uploadList = new Array();
-    var uploadListDom=$(".wrapper").find(".upload-course-list");
-
-
-    function refreshUploadCourse(){
-        uploadListDom.find("li").each(function(index,liDom){
-            uploadList[index]=$(liDom).data("upload-course");
+    /*加载课程*/
+    function getAllCourses() {
+        $.ajax({
+            type:"post",
+            url:basePath+"/admin/course/getAllCourses",
+            success:function (data) {
+                allCourses=data;
+                parseCourse(data);
+            },
+            error:function () {
+                alert("获取课程体系信息失败！");
+            },
+            complete:function(){
+                getAllCourseOrgan();
+            }
         });
     }
-    $(".upload-course-list").on("click","i.icon-trash",function(){
-        $(".add-upload-course .all-course-list").append($(this).parent());
+    function parseCourse(data){
+        data.forEach(function (data) {
+            var courseTbody=$(".course-list").find("tbody");
+            addCourse(data,courseTbody);
+        });
+    }
+    function addCourse(data,parentDom) {
+        var trDom=$("<tr data-course-id="+data.id+"></tr>");
+        var message="<td>"+data.id+"</td>" +
+            "<td>"+data.name+"</td>" +
+            "<td>"+data.description+"</td>"+
+            "<td class='tag-list'>" +
+            "    <ul class='list-inline sub-list'>" +
+            "        <h5 style='display: inline-block;'>视频文件</h5>" +
+            "        <li><a href='#'>Java多线程</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "        </li>" +
+            "        <li><a href='#'>Java NIO</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "        </li>" +
+            "" +
+            "        <a href='#' class='add-new-tag'><i  data-toggle='tooltip' data-original-title='添加课程' class=' icon-plus-sign'></i></a>" +
+            "    </ul>" +
+            "    <ul class='list-inline sub-list'>" +
+            "        <h5 style='display: inline-block;'>音频文件</h5>" +
+            "        <li><a href='#'>Java多线程</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "        </li>" +
+            "        <li><a href='#'>Java NIO</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "        </li>" +
+            "        <li><a href='#'>图像识别</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "        </li>" +
+            "        <a href='#' class='add-new-tag'><i  data-toggle='tooltip' data-original-title='添加课程' class=' icon-plus-sign'></i></a>" +
+            "    </ul><ul class='list-inline sub-list'>" +
+            "    <h5 style='display: inline-block;'>ppt文件</h5>" +
+            "    <li><a href='#'>Java多线程</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "    </li>" +
+            "    <li><a href='#'>Java NIO</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "    </li>" +
+            "    <li><a href='#'>图像识别</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>" +
+            "    </li>" +
+            "    <a href='#' class='add-new-tag'><i  data-toggle='tooltip' data-original-title='添加课程' class=' icon-plus-sign'></i></a>" +
+            "</ul>" +
+            "</td>" +
+            "<td class=' '><a class='edit' href='javascript:;'>2017-7-12</a></td>" +
+            "<td class=' '><a class='edit' href='javascript:;'>Jhon</a></td>";
+        trDom.html(message);
+        parentDom.append(trDom);
+    }
+
+    getAllOrganizations();
+    /*加载所有的课程部门对应关系*/
+    function getAllCourseOrgan(){
+        $.ajax({
+            type:"post",
+            url:basePath+"/admin/courseOrgan/getAllCourseOrgan",
+            success:function (data) {
+                paraseCourseOrgan(data);
+                refreshToolTip();
+            }
+        });
+    }
+    function paraseCourseOrgan(data){
+        data.forEach(function (data) {
+            var organTbody=$(".organization-list").find("tbody");
+            addCourseOrgan(data,organTbody);
+        });
+    };
+    function addCourseOrgan(data,organTbody) {
+        var liDom=$("<li data-course-id="+data.courseId+"></li>");
+        var course=getCourseById(data.courseId);
+        var message="<a href='#'>"+course.name+"</a><i class='icon-trash' data-toggle='tooltip' title='' data-original-title='删除标签'></i>";
+        liDom.html(message);
+        organTbody.find("tr[data-organ-id="+data.organizationId+"]").find("ul").prepend(liDom);
+
+    }
+    function getCourseById(id){
+        for(i=0;i<allCourses.length;i++){
+            if(allCourses[i].id==id)return allCourses[i];
+        }
+    }
+
+    var addToDom;
+    /*为部门添加课程*/
+    $(".organization-list table").on("click","a.add-new-tag",function(){
+        addToDom=$(this).parent();
+        var allCourseList=$("#course-modal").find(".all-course-list");
+        var addCourseList=$("#course-modal").find(".add-course-list");
+        var arr=getAddedCourses($(this).closest("ul"));
+        /*移出之前的添加的*/
+        allCourseList.children().remove();
+        addCourseList.children().remove();
+        /*重新添加课程标签*/
+        allCourses.forEach(function (ac) {
+            if(!arr.contains(ac.id)){
+                addCourseToCourseList(ac,allCourseList);
+            }
+        });
+
+
+    });
+    /*获取已经添加的课程*/
+    function getAddedCourses(parentDom){
+        var addIds=new Array();
+        $(parentDom).children("li").each(function(){
+            addIds.push($(this).data("course-id"));
+        });
+        return addIds;
+    }
+    /*将所有未添加的课程添加进可选列表*/
+    function addCourseToCourseList(data,parentDom){
+        var liDom=$("<li data-course-id="+data.id+"></li>");
+        var message="<a href='#' data-toggle='tooltip' data-original-title='"+data.description+"'>"+data.name+"</a><i class='icon-trash' data-toggle='tooltip'  data-original-title='删除标签'></i>";
+        liDom.html(message);
+        parentDom.append(liDom);
+    }
+/*删除列表项*/
+    $(".organization-list").on("click","i.icon-trash",function(){
+        var coureId=$(this).parent().data("course-id");
+        var organId=$(this).closest("tr").data("organ-id");
+        var target=$(this).parent();
+        $.ajax({
+            type:"post",
+            url:basePath+"/admin/courseOrgan/deleteCourseOrgan",
+            data:{courseId:coureId,organId:organId},
+            success:function (data) {
+                target.remove();
+            },
+            error:function () {
+                alert("删除课程失败！");
+            }
+        });
+
     });
 
-    /*选择需要上传到的课程标签*/
+    /*选择需要的课程标签*/
     $(".add-upload-course .all-course-list").on("click","li",function(){
         $(".add-upload-course .add-course-list").append($(this));
     });
@@ -354,11 +414,25 @@ $(function(){
     });
     /*点击确认添加选择的标签*/
     $("#course-modal .btn-sava").click(function(){
-        uploadListDom.find("a.add-new-tag").before($(".add-upload-course .add-course-list").children());
+        addToDom.find("a.add-new-tag").before($(".add-upload-course .add-course-list").children());
         $("#course-modal").modal("hide");
-        refreshUploadCourse();
+        var courseIds=getAddedCourses(addToDom);
+        var organId=addToDom.closest("tr").data("organ-id");
+        var params={organId:organId,courseIds:JSON.stringify(courseIds)};
+        console.log(JSON.stringify(params));
+        $.ajax({
+            type:"post",
+            url:basePath+"/admin/courseOrgan/setCourseOrgan",
+            data:params,
+            success:function (data) {
+            },
+            error:function () {
+                alert("列表修改失败！");
+            }
+        });
+        refreshToolTip();
     });
-    refreshUploadCourse();
+
 
 
 });
@@ -375,22 +449,22 @@ $(function(){
                                             <div class="all-course">
                                                 <h4>所有课程体系<small>(点击标签添加到列表)</small></h4>
                                                 <ul class="list-inline all-course-list">
-                                                    <li data-upload-course="1"><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                                    </li>
-                                                    <li data-upload-course="3"><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                                    </li>
+                                                    <%--<li data-upload-course="1"><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>--%>
+                                                    <%--</li>--%>
+                                                    <%--<li data-upload-course="3"><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>--%>
+                                                    <%--</li>--%>
                                                     <!-- <a href="javascript:void(0)" class="add-new-tag" data-toggle="modal"  data-target="#myModal" ><i  data-toggle="tooltip" data-original-title="添加部门" class=" icon-plus-sign"></i></a> -->
                                                 </ul>
                                             </div>
                                             <div class="add-course">
                                                 <h4>已添加的课程体系:</h4>
                                                 <ul class="list-inline add-course-list">
-                                                    <li data-upload-course="1"><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                                    </li>
-                                                    <li data-upload-course="3"><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                                    </li>
-                                                    <li data-upload-course="5"><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                                    </li>
+                                                    <%--<li data-upload-course="1"><a href="#">安卓</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>--%>
+                                                    <%--</li>--%>
+                                                    <%--<li data-upload-course="3"><a href="#">web开发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>--%>
+                                                    <%--</li>--%>
+                                                    <%--<li data-upload-course="5"><a href="#">安卓研发部</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>--%>
+                                                    <%--</li>--%>
                                                 </ul>
                                             </div>
                                         </div>
@@ -441,7 +515,7 @@ $(function(){
                 <div class="panel-body" style="display: block;">
                     <div class="adv-table editable-table ">
 
-                        <div id="editable-sample_wrapper" class="dataTables_wrapper form-inline" role="grid">
+                        <div  class="course-list form-inline" role="grid">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div id="editable-sample_length" class="dataTables_length">
@@ -469,6 +543,7 @@ $(function(){
                             <tr>
                                 <th style="min-width: 90px;">编号</th>
                                 <th style="min-width: 80px;">课程名</th>
+                                <th class="hidden-sm hidden-xs">描述</th>
                                 <th class="col-md-7 col-sm-8">文件集</th>
                                 <th class="hidden-sm hidden-xs">创建时间</th>
                                 <th class="hidden-sm hidden-xs">创建人</th>
@@ -477,116 +552,7 @@ $(function(){
 
 
                             <tbody role="alert" aria-live="polite" aria-relevant="all">
-                            <tr>
-                                <td class="">1</td>
-                                <td class="">Java课程</td>
-                                <td class="tag-list">
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">视频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
 
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">音频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul><ul class="list-inline sub-list">
-                                    <h5 style="display: inline-block;">ppt文件</h5>
-                                    <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                </ul>
-                                </td>
-                                <td class=" "><a class="edit" href="javascript:;">2017-7-12</a></td>
-                                <td class=" "><a class="edit" href="javascript:;">Jhon</a></td>
-                            </tr>
-                            <tr>
-                                <td class="">1</td>
-                                <td class="">Java课程</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">视频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">音频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul><ul class="list-inline sub-list">
-                                    <h5 style="display: inline-block;">ppt文件</h5>
-                                    <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                </ul>
-                                </td>
-                                <td class=" "><a class="edit" href="javascript:;">2017-7-12</a></td>
-                                <td class=" "><a class="edit" href="javascript:;">Jhon</a></td>
-                            </tr>
-                            <tr>
-                                <td class="">1</td>
-                                <td class="">Java课程</td>
-                                <td class="">
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">视频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul>
-                                    <ul class="list-inline sub-list">
-                                        <h5 style="display: inline-block;">音频文件</h5>
-                                        <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                        </li>
-                                        <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                    </ul><ul class="list-inline sub-list">
-                                    <h5 style="display: inline-block;">ppt文件</h5>
-                                    <li><a href="#">Java多线程</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">Java NIO</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <li><a href="#">图像识别</a><i class="icon-trash" data-toggle="tooltip" title="" data-original-title="删除标签"></i>
-                                    </li>
-                                    <a href="#" class="add-new-tag"><i  data-toggle="tooltip" data-original-title="添加课程" class=" icon-plus-sign"></i></a>
-                                </ul>
-                                </td>
-                                <td class=" "><a class="edit" href="javascript:;">2017-7-12</a></td>
-                                <td class=" "><a class="edit" href="javascript:;">Jhon</a></td>
-                            </tr>
                             </tbody>
                             </table>
                             <!-- 翻页插件 -->
@@ -617,3 +583,9 @@ $(function(){
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    function refreshToolTip() {
+        $('[data-toggle="tooltip"]').tooltip()
+    }
+    refreshToolTip();
+</script>

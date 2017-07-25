@@ -16,8 +16,7 @@ public class Discuss {
     public Discuss() {
     }
 
-    public Discuss(String userId, String content, Integer videoId) {
-        this.userId = userId;
+    public Discuss( String content, Integer videoId) {
         this.content = content;
         this.videoId = videoId;
     }
